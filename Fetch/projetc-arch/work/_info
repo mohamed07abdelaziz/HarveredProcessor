@@ -1,0 +1,450 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Senior-1/Computer-architecture/lab-5
+Efetch_piplined
+Z0 w1713257741
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 603
+Z4 dD:/Senior-1/Computer-architecture/projetc-arch
+Z5 8D:/Senior-1/Computer-architecture/projetc-arch/Fetch_piplined.vhd
+Z6 FD:/Senior-1/Computer-architecture/projetc-arch/Fetch_piplined.vhd
+l0
+L5 1
+VXnKPg_1?ok?zB[l@aHnTF1
+!s100 7:ZMBP1L96W82Yiff8XT]1
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1713303196
+!i10b 1
+Z9 !s108 1713303196.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Senior-1/Computer-architecture/projetc-arch/Fetch_piplined.vhd|
+Z11 !s107 D:/Senior-1/Computer-architecture/projetc-arch/Fetch_piplined.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Afetch
+R1
+R2
+R3
+DEx4 work 14 fetch_piplined 0 22 XnKPg_1?ok?zB[l@aHnTF1
+!i122 603
+l23
+L14 15
+VUT<Z`Y8:@XYGAgT=Ac?:F3
+!s100 g2AozdNFDh]BoIQ[78`:I3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Efetch_stage
+Z14 w1713302360
+R1
+R2
+R3
+!i122 604
+R4
+Z15 8D:\Senior-1\Computer-architecture\projetc-arch\FETCH_STAGE.vhd
+Z16 FD:\Senior-1\Computer-architecture\projetc-arch\FETCH_STAGE.vhd
+l0
+L6 1
+V41kAmgYBS=cM^cgXhbY>k1
+!s100 Yl2KPDaAJcSJ`HH`6XWNK1
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Senior-1\Computer-architecture\projetc-arch\FETCH_STAGE.vhd|
+Z18 !s107 D:\Senior-1\Computer-architecture\projetc-arch\FETCH_STAGE.vhd|
+!i113 1
+R12
+R13
+Afetch_stage
+R1
+R2
+R3
+DEx4 work 11 fetch_stage 0 22 41kAmgYBS=cM^cgXhbY>k1
+!i122 604
+l76
+L15 80
+VacA[<H^De0Zi1c4^?71We1
+!s100 bBZVjd3NTnS^^UlUVZBff2
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Einstructioncache
+Z19 w1713303190
+R1
+R2
+R3
+!i122 605
+R4
+Z20 8D:\Senior-1\Computer-architecture\projetc-arch\instructioncache.vhd
+Z21 FD:\Senior-1\Computer-architecture\projetc-arch\instructioncache.vhd
+l0
+L5 1
+V5LE=hCRDFU8f0Y[[Z^@Xc1
+!s100 ^J_684;FlKUi7;eB>YE:41
+R7
+32
+Z22 !s110 1713303197
+!i10b 1
+Z23 !s108 1713303197.000000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Senior-1\Computer-architecture\projetc-arch\instructioncache.vhd|
+Z25 !s107 D:\Senior-1\Computer-architecture\projetc-arch\instructioncache.vhd|
+!i113 1
+R12
+R13
+Artl
+R1
+R2
+R3
+DEx4 work 16 instructioncache 0 22 5LE=hCRDFU8f0Y[[Z^@Xc1
+!i122 605
+l21
+L18 16
+VfD]Mo]fN3j=V9l_7^A:R71
+!s100 NPalY1XAcfIiaa74F_gmV2
+R7
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R12
+R13
+Emux2x1
+Z26 w1713274496
+R1
+R2
+R3
+!i122 606
+R4
+Z27 8D:/Senior-1/Computer-architecture/projetc-arch/MUX2x1.vhd
+Z28 FD:/Senior-1/Computer-architecture/projetc-arch/MUX2x1.vhd
+l0
+L6 1
+VKVbgFB^WlRD3NYmS1Am]@1
+!s100 JlEYd:d43:R[o<Q`a<IMe1
+R7
+32
+R22
+!i10b 1
+R23
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Senior-1/Computer-architecture/projetc-arch/MUX2x1.vhd|
+Z30 !s107 D:/Senior-1/Computer-architecture/projetc-arch/MUX2x1.vhd|
+!i113 1
+R12
+R13
+Adataflow
+R1
+R2
+R3
+DEx4 work 6 mux2x1 0 22 KVbgFB^WlRD3NYmS1Am]@1
+!i122 606
+l13
+L12 5
+V9VVoNPJd^jWTiBcFi]5ha1
+!s100 Nm1cMCVP5nF64a;CL3Y9V0
+R7
+32
+R22
+!i10b 1
+R23
+R29
+R30
+!i113 1
+R12
+R13
+Emux4
+Z31 w1713278434
+R2
+R3
+!i122 607
+R4
+Z32 8D:/Senior-1/Computer-architecture/projetc-arch/mux4.vhd
+Z33 FD:/Senior-1/Computer-architecture/projetc-arch/mux4.vhd
+l0
+L4 1
+V68CTz3oXMM@_^Gdj1[ijn1
+!s100 l;QKN:4?a1eBE:4^43VkT3
+R7
+32
+Z34 !s110 1713303198
+!i10b 1
+R23
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Senior-1/Computer-architecture/projetc-arch/mux4.vhd|
+Z36 !s107 D:/Senior-1/Computer-architecture/projetc-arch/mux4.vhd|
+!i113 1
+R12
+R13
+Awith_select_mux
+R2
+R3
+Z37 DEx4 work 4 mux4 0 22 68CTz3oXMM@_^Gdj1[ijn1
+!i122 607
+l23
+L22 10
+VF;Jn<`Fc4jfd3YU;j?VKA1
+!s100 `LcG<lC^L=Rc^Ikz5^z<R0
+R7
+32
+R34
+!i10b 1
+R23
+R35
+R36
+!i113 1
+R12
+R13
+Awhen_else_mux
+R2
+R3
+R37
+!i122 607
+l13
+Z38 L12 8
+V`W_k1;C^559W=jWV@6<<g0
+!s100 `595l7^clI1GDKikg66?=0
+R7
+32
+R34
+!i10b 1
+R23
+R35
+R36
+!i113 1
+R12
+R13
+Emy_dff
+Z39 w1709921719
+R2
+R3
+!i122 608
+R4
+Z40 8D:/Senior-1/Computer-architecture/projetc-arch/my_DFF.vhd
+Z41 FD:/Senior-1/Computer-architecture/projetc-arch/my_DFF.vhd
+l0
+L4 1
+V<9=n88>gQIdInNj3m9X@H1
+!s100 <PNzjEYgBVlYSa_N7`MCW0
+R7
+32
+R34
+!i10b 1
+Z42 !s108 1713303198.000000
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Senior-1/Computer-architecture/projetc-arch/my_DFF.vhd|
+Z44 !s107 D:/Senior-1/Computer-architecture/projetc-arch/my_DFF.vhd|
+!i113 1
+R12
+R13
+Aa_my_dff
+R2
+R3
+DEx4 work 6 my_dff 0 22 <9=n88>gQIdInNj3m9X@H1
+!i122 608
+l13
+L12 13
+VXVX05<2f0D0Na[BKd66[<2
+!s100 CIZ1<b3KZlT1>SD=mi:j52
+R7
+32
+R34
+!i10b 1
+R42
+R43
+R44
+!i113 1
+R12
+R13
+Emy_ndff
+Z45 w1713215840
+R2
+R3
+!i122 609
+R4
+Z46 8D:/Senior-1/Computer-architecture/projetc-arch/my_nDFF.vhd
+Z47 FD:/Senior-1/Computer-architecture/projetc-arch/my_nDFF.vhd
+l0
+L4 1
+V>MDTB50Pj^1<2TZC0644c3
+!s100 Dh7nmjT5i9c7GeF0W=nFk3
+R7
+32
+R34
+!i10b 1
+R42
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Senior-1/Computer-architecture/projetc-arch/my_nDFF.vhd|
+Z49 !s107 D:/Senior-1/Computer-architecture/projetc-arch/my_nDFF.vhd|
+!i113 1
+R12
+R13
+Ab_my_ndff
+R2
+R3
+DEx4 work 7 my_ndff 0 22 >MDTB50Pj^1<2TZC0644c3
+!i122 609
+l16
+L11 11
+Vf1eJ`HYnNlJ>1LaRGgR_a3
+!s100 PlRCD?ISgVhzCYMPh@KE12
+R7
+32
+R34
+!i10b 1
+R42
+R48
+R49
+!i113 1
+R12
+R13
+Emynor
+Z50 w1713215594
+R2
+R3
+!i122 610
+R4
+Z51 8D:/Senior-1/Computer-architecture/projetc-arch/mynor.vhd
+Z52 FD:/Senior-1/Computer-architecture/projetc-arch/mynor.vhd
+l0
+L4 1
+VmB8hg2PfUE:<kARSIPS^60
+!s100 2C`maldmGhJUYTdL]dFE40
+R7
+32
+R34
+!i10b 1
+R42
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Senior-1/Computer-architecture/projetc-arch/mynor.vhd|
+Z54 !s107 D:/Senior-1/Computer-architecture/projetc-arch/mynor.vhd|
+!i113 1
+R12
+R13
+Amynordesign
+R2
+R3
+DEx4 work 5 mynor 0 22 mB8hg2PfUE:<kARSIPS^60
+!i122 610
+l15
+R38
+Vm^b<Idbbh:5ZWmzDRI>K92
+!s100 3C6n9Wj^X1iG@jDc5FiF:1
+R7
+32
+R34
+!i10b 1
+R42
+R53
+R54
+!i113 1
+R12
+R13
+Emyor
+Z55 w1713215585
+R2
+R3
+!i122 611
+R4
+Z56 8D:/Senior-1/Computer-architecture/projetc-arch/myor.vhd
+Z57 FD:/Senior-1/Computer-architecture/projetc-arch/myor.vhd
+l0
+L4 1
+VDc>`c@T_nPEN^4G0mT`TT0
+!s100 HjZOjl5DmEM<ijaZXK>aI1
+R7
+32
+R34
+!i10b 1
+R42
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Senior-1/Computer-architecture/projetc-arch/myor.vhd|
+Z59 !s107 D:/Senior-1/Computer-architecture/projetc-arch/myor.vhd|
+!i113 1
+R12
+R13
+Amyordesign
+R2
+R3
+DEx4 work 4 myor 0 22 Dc>`c@T_nPEN^4G0mT`TT0
+!i122 611
+l15
+R38
+VkSb`UEmHAWfbOA=I9Uz9Q2
+!s100 b:3hX;0GT5I;3eJ>eX]<J0
+R7
+32
+R34
+!i10b 1
+R42
+R58
+R59
+!i113 1
+R12
+R13
+Epc_unit
+Z60 w1713302160
+R1
+R2
+R3
+!i122 612
+R4
+Z61 8D:\Senior-1\Computer-architecture\projetc-arch\PC.vhd
+Z62 FD:\Senior-1\Computer-architecture\projetc-arch\PC.vhd
+l0
+L5 1
+V;O?K>cPnM[>MIk]?zPENl0
+!s100 9Va4b5]jOGQD=1Nmi4Lo]1
+R7
+32
+R34
+!i10b 1
+R42
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:\Senior-1\Computer-architecture\projetc-arch\PC.vhd|
+Z64 !s107 D:\Senior-1\Computer-architecture\projetc-arch\PC.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+Z65 DEx4 work 7 pc_unit 0 22 ;O?K>cPnM[>MIk]?zPENl0
+!i122 612
+l20
+Z66 L15 26
+Z67 VCB:En]]16jhMk_CGfGH?[2
+Z68 !s100 `6D?Q8a^dTaJQHcg]PP2Q1
+R7
+32
+R34
+!i10b 1
+R42
+R63
+R64
+!i113 1
+R12
+R13

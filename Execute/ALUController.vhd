@@ -1,0 +1,217 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+
+ENTITY ALUController IS
+	PORT( 	Rst: IN std_logic;
+    -- OPCode Second 4 bits for group first 2bits for instruction
+Opcode : IN std_logic_vector(5 downto 0);
+---- Controls Signals for special instructions
+   -- Execute Signals
+	SelectALU : OUT std_logic_vector(3 downto 0);
+    --WB Signals
+    -- InPortWe: Out std_logic; -- OutPortWe: Out std_logic; -- RegWrite1: Out std_logic;
+    -- SwapSignal:OUT std_logic;
+    WBSignals:OUT std_logic_vector(3 downto 0);
+    --Memory Signals
+  --  BitfreeorProtectSignal:OUT std_logic;-- CondorUnCond:OUT std_logic;
+    MemSignals:OUT std_logic_vector(1 downto 0)
+);
+END ALUController;
+
+ARCHITECTURE ALUControllerP OF ALUController IS
+BEGIN
+	
+Process(Opcode,Rst)
+begin
+    if(Rst='1') then
+        SelectALU<="0000";
+        WBSignals<="0000";
+        MemSignals<="00";
+elsif(Opcode="000000" or (Opcode="010000" or Opcode="010001") or Opcode="011000"  or Opcode="100000" or Opcode="100100"
+    or Opcode="101000" or  (Opcode="110000" or Opcode="110001") or Opcode="110100"  or Opcode="111000" or  Opcode="111100" or
+    Opcode="101110" or Opcode="101111" )then--F=A
+      -- Execute Signals  0000 Nop
+      SelectALU<="0000";
+      if(Opcode="000000" or Opcode="011000" or Opcode="100000" or Opcode="100100" or  Opcode="111000" or 
+       Opcode="111100" ) then --NOP //PUSH //LDI//Ret//RTI//Pop//Pop
+   --WB Signals
+    -- InPortWe: 0 -- OutPortWe 0 -- RegWrite1 0
+    -- SwapSignal 0
+      --Memory Signals
+  --  BitfreeorProtectSignal 0-- CondorUnCond 0 
+      WBSignals<="0000";
+      MemSignals<="00"; 
+        elsif (Opcode="101000") then --Swap
+             --WB Signals
+    -- InPortWe: 0 -- OutPortWe 0 -- RegWrite1 1
+    -- SwapSignal 1
+      --Memory Signals
+  --  BitfreeorProtectSignal 0-- CondorUnCond 0 
+  WBSignals<="1100";
+  MemSignals<="00";
+elsif (Opcode="110100") then --Call
+--WB Signals
+-- InPortWe: 0 -- OutPortWe 0 -- RegWrite1 0
+-- SwapSignal 0
+--Memory Signals
+--  BitfreeorProtectSignal 0-- CondorUnCond 1
+WBSignals<="0000";
+MemSignals<="10";
+elsif (Opcode="010000" or Opcode="010001") then --In //OUT
+--Memory Signals
+--  BitfreeorProtectSignal 0-- CondorUnCond 0 
+MemSignals<="00";
+if(Opcode(1 downto 0)="00") then--IN
+ --WB Signals
+-- InPortWe: 1 -- OutPortWe 0 -- RegWrite1 0
+-- SwapSignal 0
+WBSignals<="0001";
+else--OUT
+    --WB Signals
+-- InPortWe: 0 -- OutPortWe 1 -- RegWrite1 0
+-- SwapSignal 0
+WBSignals<="0010";
+end if;
+elsif (Opcode="110000" or Opcode="110001") then --Jz //Jmp
+--WB Signals
+-- InPortWe: 0 -- OutPortWe 0 -- RegWrite1 0
+-- SwapSignal 0
+WBSignals<="0000";
+if(Opcode(1 downto 0)="00") then--Jz
+--Memory Signals
+--  BitfreeorProtectSignal 0-- CondorUnCond 0 
+MemSignals<="00";
+else--Jmp
+    --Memory Signals
+--  BitfreeorProtectSignal 0-- CondorUnCond 1
+MemSignals<="10";
+end if;   
+else 
+    --WB Signals
+-- InPortWe: 0 -- OutPortWe 0 -- RegWrite1 0
+-- SwapSignal 0
+WBSignals<="0000";
+if(Opcode(1 downto 0)="00") then--Protect
+--Memory Signals
+--  BitfreeorProtectSignal 0-- CondorUnCond 0 
+MemSignals<="01";
+else--Free
+    --Memory Signals
+--  BitfreeorProtectSignal 0-- CondorUnCond 1
+MemSignals<="00";
+end if;   
+end if;   
+elsif(Opcode="101001")then --F=B //Move
+-- Execute Signals
+SelectALU<="0001";
+--WB Signals
+-- InPortWe: 0 -- OutPortWe 0 -- RegWrite1 0
+-- SwapSignal 0
+WBSignals<="0000";
+--Memory Signals
+-- BitfreeorProtectSignal 0-- CondorUnCond 0 
+MemSignals<="00";
+elsif( Opcode="010111" or Opcode="011111" )then--A+B No flags LDD//STD
+-- Execute Signals
+SelectALU<="0010";
+--WB Signals
+-- InPortWe: 0 -- OutPortWe 0 -- RegWrite1 0
+-- SwapSignal 0
+WBSignals<="0000";
+--Memory Signals
+-- BitfreeorProtectSignal 0-- CondorUnCond 0 
+MemSignals<="00";
+elsif(Opcode="000001" or Opcode="001001" or Opcode="001101")then--A-B with Flags Sub,CmP,Subi
+-- Execute Signals
+SelectALU<="0011";
+--WB Signals
+-- InPortWe: 0 -- OutPortWe 0 -- RegWrite1 0
+-- SwapSignal 0
+WBSignals<="0000";
+--Memory Signals
+-- BitfreeorProtectSignal 0-- CondorUnCond 0 
+MemSignals<="00";
+elsif( Opcode="001100")then--2s comp A Neg
+-- Execute Signals
+SelectALU<="0100";
+--WB Signals
+-- InPortWe: 0 -- OutPortWe 0 -- RegWrite1 0
+-- SwapSignal 0
+WBSignals<="0000";
+--Memory Signals
+-- BitfreeorProtectSignal 0-- CondorUnCond 0 
+MemSignals<="00";
+elsif( Opcode="000100")then --Not A
+-- Execute Signals
+SelectALU<="0101";
+--WB Signals
+-- InPortWe: 0 -- OutPortWe 0 -- RegWrite1 0
+-- SwapSignal 0
+WBSignals<="0000";
+--Memory Signals
+-- BitfreeorProtectSignal 0-- CondorUnCond 0 
+MemSignals<="00";
+elsif( Opcode="001000")then --A and B Flags and
+-- Execute Signals
+SelectALU<="0110";
+--WB Signals
+-- InPortWe: 0 -- OutPortWe 0 -- RegWrite1 0
+-- SwapSignal 0
+WBSignals<="0000";
+--Memory Signals
+-- BitfreeorProtectSignal 0-- CondorUnCond 0 
+MemSignals<="00";
+elsif(Opcode="000101") then --A+1 flags inc
+-- Execute Signals
+SelectALU<="0111";
+--WB Signals
+-- InPortWe: 0 -- OutPortWe 0 -- RegWrite1 0
+-- SwapSignal 0
+WBSignals<="0000";
+--Memory Signals
+-- BitfreeorProtectSignal 0-- CondorUnCond 0 
+MemSignals<="00";
+elsif(Opcode="000111" or Opcode="001111" ) then --A+B flags Add,Addi
+-- Execute Signals
+SelectALU<="1000";
+--WB Signals
+-- InPortWe: 0 -- OutPortWe 0 -- RegWrite1 0
+-- SwapSignal 0
+WBSignals<="0000";
+--Memory Signals
+-- BitfreeorProtectSignal 0-- CondorUnCond 0
+MemSignals<="00";
+elsif(Opcode="001010") then --AorB flags
+-- Execute Signals
+SelectALU<="1001";
+--WB Signals
+-- InPortWe: 0 -- OutPortWe 0 -- RegWrite1 0
+-- SwapSignal 0
+WBSignals<="0000";
+--Memory Signals
+-- BitfreeorProtectSignal 0-- CondorUnCond 0
+MemSignals<="00";
+elsif(Opcode="001011") then --AxorB flags
+-- Execute Signals
+SelectALU<="1010";
+--WB Signals
+-- InPortWe: 0 -- OutPortWe 0 -- RegWrite1 0
+-- SwapSignal 0
+WBSignals<="0000";
+--Memory Signals
+-- BitfreeorProtectSignal 0-- CondorUnCond 0
+MemSignals<="00";
+else --dec A-1
+-- Execute Signals
+SelectALU<="1011";
+--WB Signals
+-- InPortWe: 0 -- OutPortWe 0 -- RegWrite1 0
+-- SwapSignal 0
+WBSignals<="0000";
+--Memory Signals
+-- BitfreeorProtectSignal 0-- CondorUnCond 0
+MemSignals<="00";
+end if;
+end  process;   
+END ALUControllerP;
+

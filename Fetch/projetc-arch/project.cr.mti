@@ -1,0 +1,88 @@
+D:/Senior-1/Computer-architecture/projetc-arch/PC.vhd {1 {vcom -work work -2002 -explicit -stats=none {D:\Senior-1\Computer-architecture\projetc-arch\PC.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pc_unit
+-- Compiling architecture Behavioral of pc_unit
+
+} {} {}} D:/Senior-1/Computer-architecture/projetc-arch/my_nDFF.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/projetc-arch/my_nDFF.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_nDFF
+-- Compiling architecture b_my_nDFF of my_nDFF
+
+} {} {}} D:/Senior-1/Computer-architecture/projetc-arch/myor.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/projetc-arch/myor.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity myor
+-- Compiling architecture myorDesign of myor
+
+} {} {}} D:/Senior-1/Computer-architecture/projetc-arch/FETCH_STAGE.vhd {1 {vcom -work work -2002 -explicit -stats=none {D:\Senior-1\Computer-architecture\projetc-arch\FETCH_STAGE.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity FETCH_STAGE
+-- Compiling architecture fetch_stage of FETCH_STAGE
+
+} {} {}} D:/Senior-1/Computer-architecture/projetc-arch/my_DFF.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/projetc-arch/my_DFF.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_DFF
+-- Compiling architecture a_my_DFF of my_DFF
+
+} {} {}} D:/Senior-1/Computer-architecture/projetc-arch/mynor.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/projetc-arch/mynor.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mynor
+-- Compiling architecture mynorDesign of mynor
+
+} {} {}} D:/Senior-1/Computer-architecture/projetc-arch/MUX2x1.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/projetc-arch/MUX2x1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Mux2x1
+-- Compiling architecture Dataflow of Mux2x1
+
+} {} {}} D:/Senior-1/Computer-architecture/projetc-arch/instructioncache.vhd {1 {vcom -work work -2002 -explicit -stats=none {D:\Senior-1\Computer-architecture\projetc-arch\instructioncache.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity instructioncache
+-- Compiling architecture rtl of instructioncache
+
+} {} {}} D:/Senior-1/Computer-architecture/projetc-arch/Fetch_piplined.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/projetc-arch/Fetch_piplined.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Fetch_piplined
+-- Compiling architecture fetch of Fetch_piplined
+
+} {} {}} D:/Senior-1/Computer-architecture/projetc-arch/mux4.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/projetc-arch/mux4.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux4
+-- Compiling architecture when_else_mux of mux4
+-- Compiling architecture with_select_mux of mux4
+-- Loading entity mux4
+
+} {} {}}

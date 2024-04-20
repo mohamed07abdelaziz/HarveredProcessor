@@ -1,0 +1,50 @@
+--includes
+library IEEE;
+  use ieee.std_logic_1164.all;
+  use ieee.numeric_std.all;
+
+entity EXMF_piplined is
+  port (
+    clk, Reset, Enable           : in  std_logic;
+    PC_plus_one                  : in  std_logic_vector(31 downto 0);
+    DFF_out                      : out std_logic_vector(229 downto 0);
+    PC_old                       : in  std_logic_vector(31 downto 0);
+    immediate                    : in  std_logic_vector(31 downto 0);
+    writeaddress1, writeaddress2 : in  std_logic_vector(2 downto 0);
+    readdata1, readdata2         : in  std_logic_vector(31 downto 0);
+    flag_register                : in  std_logic_vector(3 downto 0);
+    memory_signal                : in  std_logic_vector(15 downto 0);
+    Excute_signal                : in  std_logic_vector(5 downto 0);
+    out_alu                      : in std_logic_vector(31 downto 0);
+    write_back_signal            : in  std_logic_vector(5 downto 0)
+  );
+end entity;
+
+architecture EXMF of EXMF_piplined is
+  component my_nDFF is
+    generic (n : integer := 12);
+    port (Clk, Rst, en : in  std_logic;
+          d            : in  std_logic_vector(n - 1 downto 0);
+          q            : out std_logic_vector(n - 1 downto 0));
+  end component;
+  component myand is
+    port (
+      A : in  std_logic;
+      B : in  std_logic;
+      C : out std_logic
+    );
+  end component;
+  --Mux2x1--
+  component Mux2x1 is
+    port (A, B : in  std_logic_vector(0 downto 0) := (others => '0');
+          S    : in  std_logic;
+          F    : out std_logic_vector(0 downto 0) := (others => '0'));
+  end component;
+  --Mux2x1--
+  signal DFF_in : std_logic_vector(229 downto 0);
+  signal DFFout : std_logic_vector(229 downto 0);
+begin
+  DFF_in <= PC_plus_one & PC_old & immediate & writeaddress1 & out_alu & writeaddress2 & readdata1 & readdata2 & flag_register & Excute_signal & write_back_signal & memory_signal;
+  piplineEXMF: my_nDFF generic map (230) port map (Clk => Clk, Rst => reset, en => Enable, d => DFF_in, q => DFFout);
+  DFF_out <= DFFout;
+end architecture;

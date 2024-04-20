@@ -1,0 +1,43 @@
+library ieee;
+  use ieee.std_logic_1164.all;
+  use ieee.numeric_std.all;
+
+entity pc_unit is
+  generic (bits : integer := 32);
+  port (clk, enable, rst : in  STD_LOGIC;
+    O_PC, O_PC_OLD   : out STD_LOGIC_VECTOR(bits - 1 downto 0);
+        Reset_PC_value          : in  STD_LOGIC_VECTOR(bits - 1 downto 0);
+        current_pc : inout std_logic_vector(bits - 1 downto 0):=(others => '0')
+       );
+end entity;
+
+architecture Behavioral of pc_unit is
+
+  signal allones    : std_logic_vector(bits - 1 downto 0) := (others => '1');
+signal kj: std_logic_vector(bits - 1 downto 0) := (others => '1');
+  
+begin
+  process (clk) is
+    variable current:std_logic_vector(bits - 1 downto 0) := (others => '1');
+  begin
+    if (rst = '1') then
+      current_pc <= Reset_PC_value;
+
+    elsif rising_edge(clk) and enable = '1' then
+      if (current_pc = allones) then
+        current_pc <= (others => '0');
+      else
+        O_PC_OLD <= current_pc;
+        current:=current_pc;
+        current := std_logic_vector(unsigned(current) + 1);
+        current_pc<=current;
+kj<=current;
+      end if;
+
+    end if;
+  end process;
+
+  O_PC <= current_pc;
+k
+
+end architecture;

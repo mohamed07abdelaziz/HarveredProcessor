@@ -1,0 +1,27 @@
+H:/ModelsimArch/Modelsim/Project_Computer_Architecture/Sign_ExtendImm.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/Sign_ExtendImm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity SignExtend
+-- Compiling architecture SignExtendP of SignExtend
+
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/Register_File.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/Register_File.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Reg_File2
+-- Compiling architecture RegfileP of Reg_File2
+
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/Controller.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/Controller.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Controller
+-- Compiling architecture P_Controller of Controller
+
+} {} {}}

@@ -1,0 +1,322 @@
+D:/Senior-1/Computer-architecture/PipelinedProject/Fetch/projetc-arch/instructioncache.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Fetch/projetc-arch/instructioncache.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity instructioncache
+-- Compiling architecture rtl of instructioncache
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Fetch/projetc-arch/Fetch_piplined.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Fetch/projetc-arch/Fetch_piplined.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Fetch_piplined
+-- Compiling architecture fetch of Fetch_piplined
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Execute/ALUController.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Execute/ALUController.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALUController
+-- Compiling architecture ALUControllerP of ALUController
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Decode/MUX21.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Decode/MUX21.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux21
+-- Compiling architecture mux21P of mux21
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Memory/Memory.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Memory/Memory.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Memory
+-- Compiling architecture impOfMemory of Memory
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/MemoryPF/memoryfreeprotect.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/MemoryPF/memoryfreeprotect.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memoryfreeprotect
+-- Compiling architecture rtl of memoryfreeprotect
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Memory/spAluM.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Memory/spAluM.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity spAlu
+-- Compiling architecture impOfspAlu of spAlu
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Decode/MUX41.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Decode/MUX41.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux41
+-- Compiling architecture mux41P of mux41
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/WriteBack/zabzob/WB.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/WriteBack/zabzob/WB.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity WriteBack
+-- Compiling architecture archOFWriteBackMux of WriteBack
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/my_nDFF.vhd {1 {vcom -work work -2002 -explicit -stats=none {D:\Senior-1\Computer-architecture\PipelinedProject\my_nDFF.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_nDFF
+-- Compiling architecture b_my_nDFF of my_nDFF
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Decode/DecodeStage.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Decode/DecodeStage.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity DecodeStage
+-- Compiling architecture DecodeStageP of DecodeStage
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Fetch/projetc-arch/PC.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Fetch/projetc-arch/PC.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pc_unit
+-- Compiling architecture Behavioral of pc_unit
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/MemoryPF/excutememory.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/MemoryPF/excutememory.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity EXMF_piplined
+-- Compiling architecture EXMF of EXMF_piplined
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Execute/PartBALU.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Execute/PartBALU.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Part_BALU
+-- Compiling architecture Part_BALUP of Part_BALU
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/adder_16bit.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/adder_16bit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity adder_16bit
+-- Compiling architecture my_Xadder of adder_16bit
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/my_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/my_adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_adder
+-- Compiling architecture a_my_adder of my_adder
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/WriteBack/zabzob/mux2.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/WriteBack/zabzob/mux2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2
+-- Compiling architecture arch1 of mux2
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Decode/Sign_ExtendImm.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Decode/Sign_ExtendImm.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity SignExtend
+-- Compiling architecture SignExtendP of SignExtend
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Fetch/projetc-arch/my_DFF.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Fetch/projetc-arch/my_DFF.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_DFF
+-- Compiling architecture a_my_DFF of my_DFF
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Fetch/projetc-arch/mynor.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Fetch/projetc-arch/mynor.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mynor
+-- Compiling architecture mynorDesign of mynor
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/select_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/select_adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity select_adder
+-- Compiling architecture a_my_adder of select_adder
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Decode/Controller.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Decode/Controller.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ControllerP
+-- Compiling architecture P_Controller of ControllerP
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Decode/Register_FileP.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Decode/Register_FileP.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Reg_Filexx
+-- Compiling architecture RegfileP of Reg_Filexx
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Memory/SPAdderM.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Memory/SPAdderM.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity SPAdder
+-- Compiling architecture impOfSPAdder of SPAdder
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Memory/my_nDFFM.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Memory/my_nDFFM.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity my_nDFFM
+-- Compiling architecture impOfmy_nDFF of my_nDFFM
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Fetch/projetc-arch/mux4.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Fetch/projetc-arch/mux4.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux4
+-- Compiling architecture when_else_mux of mux4
+-- Compiling architecture with_select_mux of mux4
+-- Loading entity mux4
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Fetch/projetc-arch/myor.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Fetch/projetc-arch/myor.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity myor
+-- Compiling architecture myorDesign of myor
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Execute/ExecuteStage.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Execute/ExecuteStage.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ExecuteStage
+-- Compiling architecture ExecuteStageP of ExecuteStage
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Execute/ALUProject.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Execute/ALUProject.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALUxx
+-- Compiling architecture ALUP of ALUxx
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/my_nadder.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/my_nadder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_nadder
+-- Compiling architecture a_my_adder of my_nadder
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Execute/PartAALU.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Execute/PartAALU.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Part_AALU
+-- Compiling architecture Part_AALUP of Part_AALU
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Memory/RamM.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Memory/RamM.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Ram
+-- Compiling architecture impOfRam of Ram
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Fetch/projetc-arch/my_nDFF.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Fetch/projetc-arch/my_nDFF.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_nDFF
+-- Compiling architecture b_my_nDFF of my_nDFF
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/my_DFF.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/my_DFF.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_DFF
+-- Compiling architecture a_my_DFF of my_DFF
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Execute/PartCALU.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Execute/PartCALU.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Part_CALU
+-- Compiling architecture Part_CALUP of Part_CALU
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/MemoryPF/myand.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/MemoryPF/myand.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity myand
+-- Compiling architecture mynorDesign of myand
+
+} {} {}} D:/Senior-1/Computer-architecture/PipelinedProject/Fetch/projetc-arch/MUX2x1.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Senior-1/Computer-architecture/PipelinedProject/Fetch/projetc-arch/MUX2x1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Mux2x1
+-- Compiling architecture Dataflow of Mux2x1
+
+} {} {}}

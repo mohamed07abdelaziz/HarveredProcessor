@@ -1,0 +1,122 @@
+H:/ModelsimArch/Modelsim/Project_Computer_Architecture/Execute/ExecuteStage.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/Execute/ExecuteStage.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ExecuteStage
+-- Compiling architecture ExecuteStageP of ExecuteStage
+
+} {} {}} {H:/ModelsimArch/Modelsim/Lab 3/Demo/my_nDFF.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/ModelsimArch/Modelsim/Lab 3/Demo/my_nDFF.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_nDFF
+-- Compiling architecture b_my_nDFF of my_nDFF
+
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/Execute/PartAALU.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/Execute/PartAALU.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Part_AALU
+-- Compiling architecture Part_AALUP of Part_AALU
+
+} {} {}} {H:/ModelsimArch/Modelsim/Week2_ Lab2/Demo Thursday/my_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/ModelsimArch/Modelsim/Week2_ Lab2/Demo Thursday/my_adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_adder
+-- Compiling architecture a_my_adder of my_adder
+
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/Execute/PartCALU.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/Execute/PartCALU.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Part_CALU
+-- Compiling architecture Part_CALUP of Part_CALU
+
+} {} {}} H:/ModelsimArch/Modelsim/Lab_2/adder_16bit.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Lab_2/adder_16bit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity adder_16bit
+-- Compiling architecture my_Xadder of adder_16bit
+
+} {} {}} {H:/ModelsimArch/Modelsim/Week2_ Lab2/Demo Thursday/select_adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/ModelsimArch/Modelsim/Week2_ Lab2/Demo Thursday/select_adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity select_adder
+-- Compiling architecture a_my_adder of select_adder
+
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/Decode/MUX21.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/Decode/MUX21.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux21
+-- Compiling architecture mux21P of mux21
+
+} {} {}} {H:/ModelsimArch/Modelsim/Week2_ Lab2/Demo Thursday/my_nadder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/ModelsimArch/Modelsim/Week2_ Lab2/Demo Thursday/my_nadder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_nadder
+-- Compiling architecture a_my_adder of my_nadder
+
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/Decode/MUX41.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/Decode/MUX41.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux41
+-- Compiling architecture mux41P of mux41
+
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/Execute/ALU.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/Execute/ALU.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALU
+-- Compiling architecture ALUP of ALU
+
+} {} {}} {H:/ModelsimArch/Modelsim/Lab 3/Demo/my_DFF.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/ModelsimArch/Modelsim/Lab 3/Demo/my_DFF.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_DFF
+-- Compiling architecture a_my_DFF of my_DFF
+
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/Execute/PartBALU.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/Execute/PartBALU.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity Part_BALU
+-- Compiling architecture Part_BALUP of Part_BALU
+
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/Execute/ALUController.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/Execute/ALUController.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALUController
+-- Compiling architecture ALUControllerP of ALUController
+
+} {} {}}

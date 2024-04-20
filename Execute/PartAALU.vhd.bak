@@ -1,0 +1,66 @@
+Library IEEE;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+entity Part_AALU is
+generic (n: integer := 32);
+port(
+Clk,Rst : IN std_logic;
+ A,B: in std_logic_vector(n-1 downto 0);
+Sel:in std_logic_vector(3 downto 0);
+  F: out std_logic_vector(n-1 downto 0); -- we dont need to write semicolon as the end has } :)
+-- Cout:out std_logic;
+Cin:in std_logic;
+--Carry Flag,Negative flag,Zero Flag ,Overflowflag
+CCR:OUT std_logic_vector(3 downto 0)
+);
+end entity;
+ARCHITECTURE Part_AALUP OF Part_AALU IS
+component  adder_16bit IS
+generic (n: integer := 16);
+PORT (a,b : IN  std_logic_vector(n-1 downto 0);
+          cin : in std_logic;
+		  s : out std_logic_vector(n-1 downto 0);
+           cout : OUT std_logic );
+END component;
+Component my_nDFF IS
+	GENERIC ( n : integer := 12);
+	PORT(	Clk,Rst : IN std_logic;
+		d : IN std_logic_vector(n-1 DOWNTO 0);
+		q : OUT std_logic_vector(n-1 DOWNTO 0);
+                we: IN std_logic);
+end Component;
+Signal FT,Bx:std_logic_vector( n-1 downto 0);
+Signal CoutT,CoutT2,Cinx,We :std_logic;
+Signal CCRx:std_logic_vector( 3 downto 0);
+begin
+   f0:adder_16bit generic map(n) port map(A,Bx,Cinx,FT,CoutT);
+   D0:my_nDFF generic map(4) port map(Clk,Rst,CCRx ,CCR,We);
+--For A-B // A+B
+   Bx<=B when Sel<="0010"
+else Not B ;
+Cinx<='0' when Sel<="0010"
+else '1';
+   --Selection=0000  F=A  No Flags ,Sel=0001 F=B ,Sel=0011 A-B with  Flags
+   --Selection=0010 A+B with no flags
+We<='1' when Sel="0011" and Rst='0'
+else '0';
+F<=A when Sel="0000"
+else B when Sel="0001"
+else FT;
+CCRx(0)<=CoutT when Sel="0011"
+else CCRx(0);
+CCRx(1)<=FT(31) when Sel="0011"
+else CCRx(0);
+CCRx(2)<='1' when Sel="0011" and FT=x"00000000"
+else '0';
+CCRx(3)<='0'when Sel="0011"
+else CCRx(3);
+CCR<=CCRx;
+END Part_AALUP;
+
+ 
+
+
+
+
