@@ -22,9 +22,9 @@ VW8BYK917:kk78B`dgHUBO2
 !s100 oXVB[GMCAY5>RVOL]3E631
 Z6 OV;C;10.5b;63
 32
-Z7 !s110 1713648236
+Z7 !s110 1713730149
 !i10b 1
-Z8 !s108 1713648236.000000
+Z8 !s108 1713730148.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/adder_16bit.vhd|
 Z10 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/adder_16bit.vhd|
 !i113 1
@@ -61,9 +61,9 @@ VLML7<im^WM^Uc@Ki4EQMU3
 !s100 M<@VJeih8ogWz`Hm0oOkV0
 R6
 32
-Z16 !s110 1713648226
+Z16 !s110 1713730143
 !i10b 1
-Z17 !s108 1713648226.000000
+Z17 !s108 1713730143.000000
 Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/ALUController.vhd|
 Z19 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/ALUController.vhd|
 !i113 1
@@ -100,11 +100,11 @@ V=a4PY4o5<[mm?3UDz]zzE1
 !s100 L`7b20YL>P:KTKY4jXaPK3
 R6
 32
-Z23 !s110 1713648227
+Z23 !s110 1713730144
 !i10b 1
-Z24 !s108 1713648227.000000
-Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/ALUProject.vhd|
-Z26 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/ALUProject.vhd|
+R17
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/ALUProject.vhd|
+Z25 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/ALUProject.vhd|
 !i113 1
 R11
 R12
@@ -120,106 +120,106 @@ R6
 32
 R23
 !i10b 1
+R17
 R24
 R25
-R26
 !i113 1
 R11
 R12
 Econtrollerp
-Z27 w1713646985
+Z26 w1713724853
 R1
 R2
 R3
-Z28 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Controller.vhd
-Z29 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Controller.vhd
+Z27 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Controller.vhd
+Z28 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Controller.vhd
 l0
 L4
-Vz:FdT]FEC>`XI8:PmL=7o3
-!s100 85;b0<0XW[?IQX<9`MQVe3
+V1Xne2i]6LP=T_WJhQ4[O_2
+!s100 W?TFdV9T86OadnI<1Ii1W2
 R6
 32
-Z30 !s110 1713648224
+Z29 !s110 1713730142
 !i10b 1
-Z31 !s108 1713648224.000000
-Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Controller.vhd|
-Z33 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Controller.vhd|
+Z30 !s108 1713730142.000000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Controller.vhd|
+Z32 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Controller.vhd|
 !i113 1
 R11
 R12
 Ap_controller
 R1
 R2
-DEx4 work 11 controllerp 0 22 z:FdT]FEC>`XI8:PmL=7o3
+DEx4 work 11 controllerp 0 22 1Xne2i]6LP=T_WJhQ4[O_2
 l31
 L30
-VcAS2gSTH72Kh:N:Pb[aAc2
-!s100 [bKi7]Q7FYcNZ@z_EP<UK3
+Va31[;kP<8D68B_@flD1EN1
+!s100 38^A80Q20BJhA_610B^`63
 R6
 32
-R30
+R29
 !i10b 1
+R30
 R31
 R32
-R33
 !i113 1
 R11
 R12
 Edecodestage
-Z34 w1713453716
+Z33 w1713729693
 R1
 R2
 R3
-Z35 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/DecodeStage.vhd
-Z36 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/DecodeStage.vhd
+Z34 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/DecodeStage.vhd
+Z35 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/DecodeStage.vhd
 l0
 L5
-VY<2LiJMenkFX_C?3eYoWl3
-!s100 iI3:eM8=DQnSoliTAgKD=0
+V228a<DDLEABg^mTeLVaA31
+!s100 0;i3ikK2zk>Zj<amNl1CB0
 R6
 32
-R30
+R16
 !i10b 1
-R31
-Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/DecodeStage.vhd|
-Z38 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/DecodeStage.vhd|
+R30
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/DecodeStage.vhd|
+Z37 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/DecodeStage.vhd|
 !i113 1
 R11
 R12
 Adecodestagep
 R1
 R2
-DEx4 work 11 decodestage 0 22 Y<2LiJMenkFX_C?3eYoWl3
+DEx4 work 11 decodestage 0 22 228a<DDLEABg^mTeLVaA31
 l106
 L44
-VV`2?]37K`hiKiC3C7?h6f3
-!s100 C549J?omjFj[_GmIkkc[C3
+VU@?>lS;RV5Qb8Il0a<F291
+!s100 0TC?`36nIehz]njghFjFG0
 R6
 32
-R30
+R16
 !i10b 1
-R31
+R30
+R36
 R37
-R38
 !i113 1
 R11
 R12
 Eexecutestage
-Z39 w1713350380
+Z38 w1713730117
 R1
 R2
 R3
-Z40 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/ExecuteStage.vhd
-Z41 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/ExecuteStage.vhd
+Z39 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/ExecuteStage.vhd
+Z40 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/ExecuteStage.vhd
 l0
 L3
-VzGR6dQPNhNXGUEEL^Ai2W0
-!s100 Z`oEN>L;]^8W>13LLZ:G`3
+V24@MjjJZG_YzIRJCJ_EVY2
+!s100 Fh8Z4TbQ0mL6dYZXB28J?1
 R6
 32
 R23
 !i10b 1
-R24
+Z41 !s108 1713730144.000000
 Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/ExecuteStage.vhd|
 Z43 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/ExecuteStage.vhd|
 !i113 1
@@ -228,23 +228,23 @@ R12
 Aexecutestagep
 R1
 R2
-DEx4 work 12 executestage 0 22 zGR6dQPNhNXGUEEL^Ai2W0
-l76
-L26
-V`<0@MGTGZNLed;hZ7_V4[3
-!s100 5ULUQIOH_D]T7Y`G9[GbM1
+DEx4 work 12 executestage 0 22 24@MjjJZG_YzIRJCJ_EVY2
+l86
+L28
+VCFX4c0cjF2ASW?PAXRN6I0
+!s100 IcVzP6N6fg6KkmNkThXXI3
 R6
 32
 R23
 !i10b 1
-R24
+R41
 R42
 R43
 !i113 1
 R11
 R12
 Eexmf_piplined
-Z44 w1713457236
+Z44 w1713715480
 Z45 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R1
 R2
@@ -257,11 +257,11 @@ V>Z]C:[GU?>1H1admMH51G1
 !s100 Ob8i0WiZLl8f1D`TC:W1H2
 R6
 32
-Z48 !s110 1713648233
+Z48 !s110 1713730148
 !i10b 1
-Z49 !s108 1713648233.000000
-Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/excutememory.vhd|
-Z51 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/excutememory.vhd|
+R8
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/excutememory.vhd|
+Z50 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/excutememory.vhd|
 !i113 1
 R11
 R12
@@ -272,37 +272,37 @@ R2
 DEx4 work 13 exmf_piplined 0 22 >Z]C:[GU?>1H1admMH51G1
 l42
 L23
-VS2727g=<S3oJPV^aTWAa=2
-!s100 Pd>^B<MU`GJQBlIUDJIMZ1
+VUX_n1eB;LRWJnOD8F8P=61
+!s100 Z8?dWPSz6^A@@I7dghi[[3
 R6
 32
 R48
 !i10b 1
+R8
 R49
 R50
-R51
 !i113 1
 R11
 R12
 Efetch_piplined
-Z52 w1713453278
+Z51 w1713715765
 R45
 R1
 R2
 R3
-Z53 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/Fetch_piplined.vhd
-Z54 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/Fetch_piplined.vhd
+Z52 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/Fetch_piplined.vhd
+Z53 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/Fetch_piplined.vhd
 l0
 L5
-VXnKPg_1?ok?zB[l@aHnTF1
-!s100 7:ZMBP1L96W82Yiff8XT]1
+VBBTclNz7LOi249ZB0AeD21
+!s100 XMAH8cG2ENHd4OfZJ:P@`1
 R6
 32
-Z55 !s110 1713648228
+R23
 !i10b 1
-Z56 !s108 1713648228.000000
-Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/Fetch_piplined.vhd|
-Z58 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/Fetch_piplined.vhd|
+R41
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/Fetch_piplined.vhd|
+Z55 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/Fetch_piplined.vhd|
 !i113 1
 R11
 R12
@@ -310,40 +310,40 @@ Afetch
 R45
 R1
 R2
-DEx4 work 14 fetch_piplined 0 22 XnKPg_1?ok?zB[l@aHnTF1
-l25
-L14
-V5mgSDQa3mlZQnTkOBh1i42
-!s100 CI6nI3DG_A?anTSjADEAY3
+DEx4 work 14 fetch_piplined 0 22 BBTclNz7LOi249ZB0AeD21
+l26
+L15
+VBUm>McST9;RnA?FkTcQI22
+!s100 i]jE0?L:e7_A`Va`F=CB32
 R6
 32
-R55
+R23
 !i10b 1
-R56
-R57
-R58
+R41
+R54
+R55
 !i113 1
 R11
 R12
 Efetch_stage
-Z59 w1713631784
+Z56 w1713631784
 R45
 R1
 R2
 R3
-Z60 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/FETCH_STAGE.vhd
-Z61 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/FETCH_STAGE.vhd
+Z57 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/FETCH_STAGE.vhd
+Z58 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/FETCH_STAGE.vhd
 l0
 L6
 VENMjA?@^Dfe94X9E6jSL]0
 !s100 >2EgOoz3F?BgzG[_lkl]j2
 R6
 32
-Z62 !s110 1713648229
+R23
 !i10b 1
-Z63 !s108 1713648229.000000
-Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/FETCH_STAGE.vhd|
-Z65 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/FETCH_STAGE.vhd|
+R41
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/FETCH_STAGE.vhd|
+Z60 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/FETCH_STAGE.vhd|
 !i113 1
 R11
 R12
@@ -358,33 +358,33 @@ VgO74oXK5;mKedTDVQ7a]f1
 !s100 O]SfBRGMBdjnHVRbX8f3:1
 R6
 32
-R62
+R23
 !i10b 1
-R63
-R64
-R65
+R41
+R59
+R60
 !i113 1
 R11
 R12
 Einstructioncache
-Z66 w1713633163
+Z61 w1713633163
 R45
 R1
 R2
 R3
-Z67 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/instructioncache.vhd
-Z68 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/instructioncache.vhd
+Z62 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/instructioncache.vhd
+Z63 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/instructioncache.vhd
 l0
 L5
 Vb>nC`A7EnTFj2fz74?Q>90
 !s100 FRN`8ooNBIoT5G9YE_56G1
 R6
 32
-R62
+Z64 !s110 1713730145
 !i10b 1
-R63
-Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/instructioncache.vhd|
-Z70 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/instructioncache.vhd|
+Z65 !s108 1713730145.000000
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/instructioncache.vhd|
+Z67 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/instructioncache.vhd|
 !i113 1
 R11
 R12
@@ -399,33 +399,33 @@ VSA;S3DJU16D833]4;3NMP3
 !s100 e:?iNFJTGngcbo1T7hCnO3
 R6
 32
-R62
+R64
 !i10b 1
-R63
-R69
-R70
+R65
+R66
+R67
 !i113 1
 R11
 R12
 Ememory
-Z71 w1713457834
+Z68 w1713457834
 R45
 R1
 R2
 R3
-Z72 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/Memory.vhd
-Z73 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/Memory.vhd
+Z69 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/Memory.vhd
+Z70 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/Memory.vhd
 l0
 L5
 VXCW]JA4e[Mii9^OenBJ;32
 !s100 6k:j<HeG2B`;Mjccg7lQD3
 R6
 32
-Z74 !s110 1713648232
+Z71 !s110 1713730147
 !i10b 1
-Z75 !s108 1713648231.000000
-Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/Memory.vhd|
-Z77 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/Memory.vhd|
+Z72 !s108 1713730147.000000
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/Memory.vhd|
+Z74 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/Memory.vhd|
 !i113 1
 R11
 R12
@@ -440,33 +440,33 @@ VP8UBNW@`jlmc55R56iNA^0
 !s100 Raf7_TYMO<1YnKjC9T@TW2
 R6
 32
-R74
+R71
 !i10b 1
-R75
-R76
-R77
+R72
+R73
+R74
 !i113 1
 R11
 R12
 Ememoryfreeprotect
-Z78 w1713635052
+Z75 w1713635052
 R45
 R1
 R2
 R3
-Z79 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/memoryfreeprotect.vhd
-Z80 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/memoryfreeprotect.vhd
+Z76 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/memoryfreeprotect.vhd
+Z77 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/memoryfreeprotect.vhd
 l0
 L5
 VAD77XN]Tzh7EeH_[]8EQe3
 !s100 =8IgJg6;hI7P>^0?mfegn2
 R6
 32
-Z81 !s110 1713648234
+R48
 !i10b 1
-R49
-Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/memoryfreeprotect.vhd|
-Z83 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/memoryfreeprotect.vhd|
+R8
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/memoryfreeprotect.vhd|
+Z79 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/memoryfreeprotect.vhd|
 !i113 1
 R11
 R12
@@ -481,32 +481,32 @@ VkePFU[JA2Pz6I40QzMkYN1
 !s100 LH^6::b5NmbX_mZS?B]0=0
 R6
 32
-R81
+R48
 !i10b 1
-R49
-R82
-R83
+R8
+R78
+R79
 !i113 1
 R11
 R12
 Emux2
-Z84 w1713224518
+Z80 w1713224518
 R1
 R2
 R3
-Z85 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/WriteBack/zabzob/mux2.vhd
-Z86 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/WriteBack/zabzob/mux2.vhd
+Z81 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/WriteBack/zabzob/mux2.vhd
+Z82 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/WriteBack/zabzob/mux2.vhd
 l0
 L4
 Vm]fZohPf^86FieJS6Ca@S3
 !s100 _oIGgVScS]AZTiajRajoj0
 R6
 32
-Z87 !s110 1713648235
+R48
 !i10b 1
-Z88 !s108 1713648234.000000
-Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/WriteBack/zabzob/mux2.vhd|
-Z90 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/WriteBack/zabzob/mux2.vhd|
+R8
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/WriteBack/zabzob/mux2.vhd|
+Z84 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/WriteBack/zabzob/mux2.vhd|
 !i113 1
 R11
 R12
@@ -520,32 +520,32 @@ VD[9cKLaz;jXLf6Wb<PefG2
 !s100 NlCjj;5g;0UcQn:cK8SGP0
 R6
 32
-R87
+R48
 !i10b 1
-R88
-R89
-R90
+R8
+R83
+R84
 !i113 1
 R11
 R12
 Emux21
-Z91 w1713257048
+Z85 w1713257048
 R1
 R2
 R3
-Z92 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/MUX21.vhd
-Z93 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/MUX21.vhd
+Z86 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/MUX21.vhd
+Z87 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/MUX21.vhd
 l0
 L4
 VdlWOkoKa@:AhO`N:GEGWd2
 !s100 7=NiiI?[B0R2mBIa76Ig93
 R6
 32
-Z94 !s110 1713648225
+R16
 !i10b 1
-R31
-Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/MUX21.vhd|
-Z96 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/MUX21.vhd|
+R17
+Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/MUX21.vhd|
+Z89 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/MUX21.vhd|
 !i113 1
 R11
 R12
@@ -559,33 +559,33 @@ VXA_MlS[DId`hQhA4XR3Xo3
 !s100 ?lGbFdf1Hk4]SW35KX8WR3
 R6
 32
-R94
+R16
 !i10b 1
-R31
-R95
-R96
+R17
+R88
+R89
 !i113 1
 R11
 R12
 Emux2x1
-Z97 w1713457136
+Z90 w1713457136
 R45
 R1
 R2
 R3
-Z98 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/MUX2x1.vhd
-Z99 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/MUX2x1.vhd
+Z91 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/MUX2x1.vhd
+Z92 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/MUX2x1.vhd
 l0
 L6
 V:IZ5g3G]NdhCagT_j[06;0
 !s100 kY>m2d@l?boi6;ofDG?J60
 R6
 32
-R62
+R64
 !i10b 1
-R63
-Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/MUX2x1.vhd|
-Z101 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/MUX2x1.vhd|
+R65
+Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/MUX2x1.vhd|
+Z94 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/MUX2x1.vhd|
 !i113 1
 R11
 R12
@@ -600,89 +600,89 @@ VgG1Wn3Am:W67gRbE]`j]n0
 !s100 eWW>VZ_1B^W?^;91078722
 R6
 32
-R62
+R64
 !i10b 1
-R63
-R100
-R101
+R65
+R93
+R94
 !i113 1
 R11
 R12
 Emux4
-Z102 w1713278436
+Z95 w1713278436
 R1
 R2
 R3
-Z103 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/mux4.vhd
-Z104 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/mux4.vhd
+Z96 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/mux4.vhd
+Z97 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/mux4.vhd
 l0
 L4
 V68CTz3oXMM@_^Gdj1[ijn1
 !s100 l;QKN:4?a1eBE:4^43VkT3
 R6
 32
-Z105 !s110 1713648230
+R64
 !i10b 1
-Z106 !s108 1713648230.000000
-Z107 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/mux4.vhd|
-Z108 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/mux4.vhd|
+R65
+Z98 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/mux4.vhd|
+Z99 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/mux4.vhd|
 !i113 1
 R11
 R12
 Awith_select_mux
 R1
 R2
-Z109 DEx4 work 4 mux4 0 22 68CTz3oXMM@_^Gdj1[ijn1
+Z100 DEx4 work 4 mux4 0 22 68CTz3oXMM@_^Gdj1[ijn1
 l23
 L22
 VF;Jn<`Fc4jfd3YU;j?VKA1
 !s100 `LcG<lC^L=Rc^Ikz5^z<R0
 R6
 32
-R105
+R64
 !i10b 1
-R106
-R107
-R108
+R65
+R98
+R99
 !i113 1
 R11
 R12
 Awhen_else_mux
 R1
 R2
-R109
+R100
 l13
 L12
 V`W_k1;C^559W=jWV@6<<g0
 !s100 `595l7^clI1GDKikg66?=0
 R6
 32
-R105
+R64
 !i10b 1
-R106
-R107
-R108
+R65
+R98
+R99
 !i113 1
 R11
 R12
 Emux41
-Z110 w1713263278
+Z101 w1713263278
 R1
 R2
 R3
-Z111 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/MUX41.vhd
-Z112 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/MUX41.vhd
+Z102 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/MUX41.vhd
+Z103 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/MUX41.vhd
 l0
 L4
 V?8_`f3U>H29IZ9KD5z]aN1
 !s100 ^5][:nim:LXXNCSLB3_U]1
 R6
 32
-R94
+R16
 !i10b 1
-Z113 !s108 1713648225.000000
-Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/MUX41.vhd|
-Z115 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/MUX41.vhd|
+R17
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/MUX41.vhd|
+Z105 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/MUX41.vhd|
 !i113 1
 R11
 R12
@@ -696,21 +696,21 @@ Vlm9z0FGQ34VEUhSKHd^nJ2
 !s100 5[`F@@WK4Nh7GA>8:Di2R3
 R6
 32
-R94
+R16
 !i10b 1
-R113
-R114
-R115
+R17
+R104
+R105
 !i113 1
 R11
 R12
 Emy_adder
-Z116 w1707897226
+Z106 w1707897226
 R1
 R2
 R3
-Z117 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_adder.vhd
-Z118 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_adder.vhd
+Z107 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_adder.vhd
+Z108 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_adder.vhd
 l0
 L4
 VFjlMaf=9aFlNWPMnMXH?k3
@@ -719,9 +719,9 @@ R6
 32
 R7
 !i10b 1
-R8
-Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_adder.vhd|
-Z120 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_adder.vhd|
+Z109 !s108 1713730149.000000
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_adder.vhd|
+Z111 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_adder.vhd|
 !i113 1
 R11
 R12
@@ -737,19 +737,19 @@ R6
 32
 R7
 !i10b 1
-R8
-R119
-R120
+R109
+R110
+R111
 !i113 1
 R11
 R12
 Emy_dff
-Z121 w1710179526
+Z112 w1710179526
 R1
 R2
 R3
-Z122 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_DFF.vhd
-Z123 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_DFF.vhd
+Z113 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_DFF.vhd
+Z114 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_DFF.vhd
 l0
 L4
 V`cQWRKHFR2IaIlmZKo?0B2
@@ -758,9 +758,9 @@ R6
 32
 R7
 !i10b 1
-R8
-Z124 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_DFF.vhd|
-Z125 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_DFF.vhd|
+R109
+Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_DFF.vhd|
+Z116 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_DFF.vhd|
 !i113 1
 R11
 R12
@@ -776,19 +776,19 @@ R6
 32
 R7
 !i10b 1
-R8
-R124
-R125
+R109
+R115
+R116
 !i113 1
 R11
 R12
 Emy_nadder
-R116
+R106
 R1
 R2
 R3
-Z126 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_nadder.vhd
-Z127 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_nadder.vhd
+Z117 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_nadder.vhd
+Z118 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_nadder.vhd
 l0
 L4
 V2Uii>7o^mZ>R5ZU2g4=kQ0
@@ -797,9 +797,9 @@ R6
 32
 R7
 !i10b 1
-R8
-Z128 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_nadder.vhd|
-Z129 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_nadder.vhd|
+R109
+Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_nadder.vhd|
+Z120 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_nadder.vhd|
 !i113 1
 R11
 R12
@@ -815,19 +815,19 @@ R6
 32
 R7
 !i10b 1
-R8
-R128
-R129
+R109
+R119
+R120
 !i113 1
 R11
 R12
 Emy_ndff
-Z130 w1709072792
+Z121 w1709072792
 R1
 R2
 R3
-Z131 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_nDFF.vhd
-Z132 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_nDFF.vhd
+Z122 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_nDFF.vhd
+Z123 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_nDFF.vhd
 l0
 L4
 VEjAVDX?_ajIHO<h=WSdFD0
@@ -836,9 +836,9 @@ R6
 32
 R7
 !i10b 1
-R8
-Z133 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_nDFF.vhd|
-Z134 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_nDFF.vhd|
+R109
+Z124 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_nDFF.vhd|
+Z125 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_nDFF.vhd|
 !i113 1
 R11
 R12
@@ -854,31 +854,31 @@ R6
 32
 R7
 !i10b 1
-R8
-R133
-R134
+R109
+R124
+R125
 !i113 1
 R11
 R12
 Emy_ndffm
-Z135 w1713378920
+Z126 w1713378920
 R45
 R1
 R2
 R3
-Z136 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/my_nDFFM.vhd
-Z137 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/my_nDFFM.vhd
+Z127 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/my_nDFFM.vhd
+Z128 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/my_nDFFM.vhd
 l0
 L34
 VP7MT4T4gez;[HRS`JO^J71
 !s100 5<2o>jRKN=laY8:dl@VYN0
 R6
 32
-R74
+R71
 !i10b 1
-Z138 !s108 1713648232.000000
-Z139 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/my_nDFFM.vhd|
-Z140 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/my_nDFFM.vhd|
+R72
+Z129 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/my_nDFFM.vhd|
+Z130 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/my_nDFFM.vhd|
 !i113 1
 R11
 R12
@@ -893,32 +893,32 @@ VV_BGYWFZz_OjlelJIkRah2
 !s100 ;d0a4@5MWanbjX<YI4`:b2
 R6
 32
-R74
+R71
 !i10b 1
-R138
-R139
-R140
+R72
+R129
+R130
 !i113 1
 R11
 R12
 Emyand
-Z141 w1713374796
+Z131 w1713374796
 R1
 R2
 R3
-Z142 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/myand.vhd
-Z143 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/myand.vhd
+Z132 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/myand.vhd
+Z133 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/myand.vhd
 l0
 L4
 ViXHhUFZJQHnI;;;zdiU152
 !s100 K97_W;JOnCM2eITPn7XVz0
 R6
 32
-R48
+R71
 !i10b 1
-R49
-Z144 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/myand.vhd|
-Z145 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/myand.vhd|
+R72
+Z134 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/myand.vhd|
+Z135 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/myand.vhd|
 !i113 1
 R11
 R12
@@ -932,32 +932,32 @@ VBEFUfHgQL3]Q;zU4Wm25i3
 !s100 7X@4F]2hSAAzlRDAW7hiU1
 R6
 32
-R48
+R71
 !i10b 1
-R49
-R144
-R145
+R72
+R134
+R135
 !i113 1
 R11
 R12
 Emynor
-Z146 w1713215596
+Z136 w1713215596
 R1
 R2
 R3
-Z147 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/mynor.vhd
-Z148 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/mynor.vhd
+Z137 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/mynor.vhd
+Z138 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/mynor.vhd
 l0
 L4
 VmB8hg2PfUE:<kARSIPS^60
 !s100 2C`maldmGhJUYTdL]dFE40
 R6
 32
-Z149 !s110 1713648231
+R64
 !i10b 1
-R75
-Z150 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/mynor.vhd|
-Z151 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/mynor.vhd|
+R65
+Z139 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/mynor.vhd|
+Z140 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/mynor.vhd|
 !i113 1
 R11
 R12
@@ -971,32 +971,32 @@ Vm^b<Idbbh:5ZWmzDRI>K92
 !s100 3C6n9Wj^X1iG@jDc5FiF:1
 R6
 32
-R149
+R64
 !i10b 1
-R75
-R150
-R151
+R65
+R139
+R140
 !i113 1
 R11
 R12
 Emyor
-Z152 w1713215586
+Z141 w1713215586
 R1
 R2
 R3
-Z153 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/myor.vhd
-Z154 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/myor.vhd
+Z142 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/myor.vhd
+Z143 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/myor.vhd
 l0
 L4
 VDc>`c@T_nPEN^4G0mT`TT0
 !s100 HjZOjl5DmEM<ijaZXK>aI1
 R6
 32
-R149
+Z144 !s110 1713730146
 !i10b 1
-R75
-Z155 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/myor.vhd|
-Z156 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/myor.vhd|
+R65
+Z145 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/myor.vhd|
+Z146 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/myor.vhd|
 !i113 1
 R11
 R12
@@ -1010,41 +1010,41 @@ VkSb`UEmHAWfbOA=I9Uz9Q2
 !s100 b:3hX;0GT5I;3eJ>eX]<J0
 R6
 32
-R149
+R144
 !i10b 1
-R75
-R155
-R156
+R65
+R145
+R146
 !i113 1
 R11
 R12
 Epart_aalu
-Z157 w1713466824
-Z158 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z159 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z147 w1713466824
+Z148 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z149 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R45
 R1
 R2
 R3
-Z160 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartAALU.vhd
-Z161 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartAALU.vhd
+Z150 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartAALU.vhd
+Z151 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartAALU.vhd
 l0
 L5
 V>^5C59IZl;4VdBdDFYG_^3
 !s100 XcoXN<ToLlfVU0`O4A7b`1
 R6
 32
-R55
+R23
 !i10b 1
-R24
-Z162 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartAALU.vhd|
-Z163 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartAALU.vhd|
+R41
+Z152 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartAALU.vhd|
+Z153 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartAALU.vhd|
 !i113 1
 R11
 R12
 Apart_aalup
-R158
-R159
+R148
+R149
 R45
 R1
 R2
@@ -1055,41 +1055,41 @@ V6fnneNoNfbG7n]SQV]<?52
 !s100 k2>]W:ZZh[hPoKW`M9:U83
 R6
 32
-R55
+R23
 !i10b 1
-R24
-R162
-R163
+R41
+R152
+R153
 !i113 1
 R11
 R12
 Epart_balu
-Z164 w1713467432
-R158
-R159
+Z154 w1713467432
+R148
+R149
 R45
 R1
 R2
 R3
-Z165 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartBALU.vhd
-Z166 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartBALU.vhd
+Z155 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartBALU.vhd
+Z156 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartBALU.vhd
 l0
 L6
 VFzfH2kJZV8LI>b;Lm7f;N2
 !s100 FX1Q=A3c6G=_z`JL9Hi493
 R6
 32
-R55
+R23
 !i10b 1
-R56
-Z167 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartBALU.vhd|
-Z168 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartBALU.vhd|
+R41
+Z157 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartBALU.vhd|
+Z158 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartBALU.vhd|
 !i113 1
 R11
 R12
 Apart_balup
-R158
-R159
+R148
+R149
 R45
 R1
 R2
@@ -1100,24 +1100,24 @@ VFV9[YT[Y?In]4?EAez9G03
 !s100 e=^o_Q:JZJ4VTS1c==IMK0
 R6
 32
-R55
+R23
 !i10b 1
-R56
-R167
-R168
+R41
+R157
+R158
 !i113 1
 R11
 R12
 Epart_calu
-Z169 w1713467520
-R158
-R159
+Z159 w1713467520
+R148
+R149
 R45
 R1
 R2
 R3
-Z170 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartCALU.vhd
-Z171 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartCALU.vhd
+Z160 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartCALU.vhd
+Z161 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartCALU.vhd
 l0
 L6
 VdnHkD<X`ACnd]3CRlW0fV2
@@ -1127,14 +1127,14 @@ R6
 R16
 !i10b 1
 R17
-Z172 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartCALU.vhd|
-Z173 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartCALU.vhd|
+Z162 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartCALU.vhd|
+Z163 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartCALU.vhd|
 !i113 1
 R11
 R12
 Apart_calup
-R158
-R159
+R148
+R149
 R45
 R1
 R2
@@ -1148,30 +1148,30 @@ R6
 R16
 !i10b 1
 R17
-R172
-R173
+R162
+R163
 !i113 1
 R11
 R12
 Epc_unit
-Z174 w1713469249
+Z164 w1713469249
 R45
 R1
 R2
 R3
-Z175 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/PC.vhd
-Z176 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/PC.vhd
+Z165 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/PC.vhd
+Z166 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/PC.vhd
 l0
 L5
 VXHa_>7E;]e2k>deGj4K472
 !s100 YIo]oX4USeRJiidOef8A82
 R6
 32
-R55
+R23
 !i10b 1
-R56
-Z177 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/PC.vhd|
-Z178 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/PC.vhd|
+R41
+Z167 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/PC.vhd|
+Z168 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/PC.vhd|
 !i113 1
 R11
 R12
@@ -1186,33 +1186,33 @@ VcV4Q^P_0kTgbn5@2[goXU3
 !s100 mN^Y:fo[@3Z_k5l[2:2[H2
 R6
 32
-R55
+R23
 !i10b 1
-R56
-R177
-R178
+R41
+R167
+R168
 !i113 1
 R11
 R12
 Eprojectarch
-Z179 w1713648215
+Z169 w1713730135
 R45
 R1
 R2
 R3
-Z180 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/ProjectArch.vhd
-Z181 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/ProjectArch.vhd
+Z170 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/ProjectArch.vhd
+Z171 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/ProjectArch.vhd
 l0
 L5
 VGXCZh?=`eZeUlSSVN_XcF0
 !s100 604>ZWi4OU3<YRAzPK05?1
 R6
 32
-Z182 !s110 1713648237
+R7
 !i10b 1
-R8
-Z183 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/ProjectArch.vhd|
-Z184 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/ProjectArch.vhd|
+R109
+Z172 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/ProjectArch.vhd|
+Z173 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/ProjectArch.vhd|
 !i113 1
 R11
 R12
@@ -1220,40 +1220,40 @@ Aproject
 R45
 R1
 R2
-Z185 DEx4 work 11 projectarch 0 22 GXCZh?=`eZeUlSSVN_XcF0
-l221
+Z174 DEx4 work 11 projectarch 0 22 GXCZh?=`eZeUlSSVN_XcF0
+l227
 L20
-V[JiD0OW1WAoSHbzHF]kA50
-!s100 ^8?296L1WR?Mf^K2hTnk[1
+Z175 VnY1QkYo@>0GK31U7Xgk7W2
+Z176 !s100 k[:SgDe[a;3NK9ae880660
 R6
 32
-R182
+R7
 !i10b 1
-R8
-R183
-R184
+R109
+R172
+R173
 !i113 1
 R11
 R12
 Eram
-Z186 w1713382306
+Z177 w1713382306
 R45
 R1
 R2
 R3
-Z187 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/RamM.vhd
-Z188 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/RamM.vhd
+Z178 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/RamM.vhd
+Z179 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/RamM.vhd
 l0
 L4
 Vbhlb;6@n7^WXeddoFWh=B2
 !s100 V^UiO_g:fHTPLXMhmYbV=3
 R6
 32
-R74
+R71
 !i10b 1
-R138
-Z189 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/RamM.vhd|
-Z190 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/RamM.vhd|
+R72
+Z180 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/RamM.vhd|
+Z181 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/RamM.vhd|
 !i113 1
 R11
 R12
@@ -1268,33 +1268,33 @@ V1;WZ^3KSgHLX9YUE5T>PQ2
 !s100 _4PU0lF=7C2_T3T08TBnk3
 R6
 32
-R74
+R71
 !i10b 1
-R138
-R189
-R190
+R72
+R180
+R181
 !i113 1
 R11
 R12
 Ereg_filexx
-Z191 w1713349546
+R44
 R45
 R1
 R2
 R3
-Z192 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Register_FileP.vhd
-Z193 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Register_FileP.vhd
+Z182 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Register_FileP.vhd
+Z183 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Register_FileP.vhd
 l0
 L5
-VYAUSNz4zTf1edzb^WR^Y[2
-!s100 h?mAb8P]hBC362W3Qlm3a0
+V:]gE3WQWKOEY@Lznn3JC11
+!s100 0T^6F9DU;dQ^cH8TjSI033
 R6
 32
 R16
 !i10b 1
-R113
-Z194 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Register_FileP.vhd|
-Z195 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Register_FileP.vhd|
+R17
+Z184 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Register_FileP.vhd|
+Z185 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Register_FileP.vhd|
 !i113 1
 R11
 R12
@@ -1302,39 +1302,39 @@ Aregfilep
 R45
 R1
 R2
-DEx4 work 10 reg_filexx 0 22 YAUSNz4zTf1edzb^WR^Y[2
+DEx4 work 10 reg_filexx 0 22 :]gE3WQWKOEY@Lznn3JC11
 l25
 L20
-VjDL^<0TKLooN]nEJCo1B_2
-!s100 T:IHVA9<>Xj`B@l?0>1Ck0
+VY[RQI_=ab`eIhne[Wg@JY0
+!s100 3@^1SVm`9oP<E0G9T8V@h0
 R6
 32
 R16
 !i10b 1
-R113
-R194
-R195
+R17
+R184
+R185
 !i113 1
 R11
 R12
 Eselect_adder
-R116
+R106
 R1
 R2
 R3
-Z196 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/select_adder.vhd
-Z197 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/select_adder.vhd
+Z186 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/select_adder.vhd
+Z187 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/select_adder.vhd
 l0
 L4
 V=C?]5]CVgAJca;R4K]PRJ1
 !s100 _9[53?PeiiYmcN_E2g17H0
 R6
 32
-R87
+R48
 !i10b 1
-Z198 !s108 1713648235.000000
-Z199 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/select_adder.vhd|
-Z200 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/select_adder.vhd|
+R8
+Z188 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/select_adder.vhd|
+Z189 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/select_adder.vhd|
 !i113 1
 R11
 R12
@@ -1348,33 +1348,33 @@ V;d4P;Pba2RGhKz8^^I7FZ0
 !s100 <IK=2C8gzYF1Y[cToaZho1
 R6
 32
-R87
+R48
 !i10b 1
-R198
-R199
-R200
+R8
+R188
+R189
 !i113 1
 R11
 R12
 Esignextend
-Z201 w1713447396
+Z190 w1713715882
 R45
 R1
 R2
 R3
-Z202 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Sign_ExtendImm.vhd
-Z203 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Sign_ExtendImm.vhd
+Z191 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Sign_ExtendImm.vhd
+Z192 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Sign_ExtendImm.vhd
 l0
 L5
-ViN]YITcLMgDSzBS<]hCO80
-!s100 >PII=^Rc@5PSXmFFc^Rf22
+V4bd8<F88`RNziQ4gAhc@b1
+!s100 eANn:j=54Oi08PGYe05AL1
 R6
 32
-R30
+R29
 !i10b 1
-R31
-Z204 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Sign_ExtendImm.vhd|
-Z205 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Sign_ExtendImm.vhd|
+R30
+Z193 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Sign_ExtendImm.vhd|
+Z194 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Sign_ExtendImm.vhd|
 !i113 1
 R11
 R12
@@ -1382,40 +1382,40 @@ Asignextendp
 R45
 R1
 R2
-DEx4 work 10 signextend 0 22 iN]YITcLMgDSzBS<]hCO80
+DEx4 work 10 signextend 0 22 4bd8<F88`RNziQ4gAhc@b1
 l15
 L13
-VkE8KaAdGO9:E>QQ_N]T^E3
-!s100 dA`kGP]bH4Y::685=Z:Kh1
+V9@C=ZR9eQ^hJE?oAfPM0>3
+!s100 LoGoLnLB<9fjHFN5CKY`_2
 R6
 32
-R30
+R29
 !i10b 1
-R31
-R204
-R205
+R30
+R193
+R194
 !i113 1
 R11
 R12
 Espadder
-Z206 w1713457638
+Z195 w1713457638
 R45
 R1
 R2
 R3
-Z207 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/SPAdderM.vhd
-Z208 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/SPAdderM.vhd
+Z196 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/SPAdderM.vhd
+Z197 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/SPAdderM.vhd
 l0
 L5
 VWdKY`AUW08d]k1<;Mn?]c2
 !s100 @V?n7JdAUo=T7mmJ2>iM`2
 R6
 32
-R48
+R71
 !i10b 1
-R49
-Z209 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/SPAdderM.vhd|
-Z210 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/SPAdderM.vhd|
+R72
+Z198 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/SPAdderM.vhd|
+Z199 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/SPAdderM.vhd|
 !i113 1
 R11
 R12
@@ -1430,33 +1430,33 @@ VIBWW[2`40h1Ck9g:VWE7L1
 !s100 OAYN1HG=E9]bAiW?nTaeC2
 R6
 32
-R48
+R71
 !i10b 1
-R49
-R209
-R210
+R72
+R198
+R199
 !i113 1
 R11
 R12
 Espalu
-R135
+R126
 R45
 R1
 R2
 R3
-Z211 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/spAluM.vhd
-Z212 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/spAluM.vhd
+Z200 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/spAluM.vhd
+Z201 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/spAluM.vhd
 l0
 L5
 VI=b;Z51Gz;nQJ0TN2CdFn1
 !s100 ]FjHN3=5Q5]SRon]@>4OA1
 R6
 32
-R149
+R71
 !i10b 1
-R75
-Z213 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/spAluM.vhd|
-Z214 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/spAluM.vhd|
+Z202 !s108 1713730146.000000
+Z203 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/spAluM.vhd|
+Z204 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/spAluM.vhd|
 !i113 1
 R11
 R12
@@ -1471,33 +1471,33 @@ VJQD[cHz`c1YniOaK2]YML3
 !s100 `2^=18=8zP<gIAWN13mGS0
 R6
 32
-R149
+R71
 !i10b 1
-R75
-R213
-R214
+R202
+R203
+R204
 !i113 1
 R11
 R12
 Ewriteback
-Z215 w1713452522
+Z205 w1713452522
 R45
 R1
 R2
 R3
-Z216 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/WriteBack/zabzob/WB.vhd
-Z217 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/WriteBack/zabzob/WB.vhd
+Z206 8H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/WriteBack/zabzob/WB.vhd
+Z207 FH:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/WriteBack/zabzob/WB.vhd
 l0
 L5
 ViKQTV0[A^nAQ=1zlP@6I]3
 !s100 b]fD;AP``h@cR`>GDV=J61
 R6
 32
-R81
+R48
 !i10b 1
-R88
-Z218 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/WriteBack/zabzob/WB.vhd|
-Z219 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/WriteBack/zabzob/WB.vhd|
+R8
+Z208 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/WriteBack/zabzob/WB.vhd|
+Z209 !s107 H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/WriteBack/zabzob/WB.vhd|
 !i113 1
 R11
 R12
@@ -1512,11 +1512,11 @@ VBfMe[zm@>TmY^n`HB745d0
 !s100 YDiMA>YJe6PH`]hU969^^2
 R6
 32
-R81
+R48
 !i10b 1
-R88
-R218
-R219
+R8
+R208
+R209
 !i113 1
 R11
 R12

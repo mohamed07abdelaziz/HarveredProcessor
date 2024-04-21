@@ -5,7 +5,7 @@ USE IEEE.STD_LOGIC_1164.ALL;
 ENTITY DecodeStage IS
 	PORT(
 		--Controller
- InputSignals : IN std_logic_vector(5 DOWNTO 0);
+ InputSignals : IN std_logic_vector(6 DOWNTO 0);
  OpCode : IN std_logic_vector(3 DOWNTO 0);
  MemSignals : OUT std_logic_vector(13 DOWNTO 0);
  ExecSignals : OUT std_logic_vector(5 DOWNTO 0);
@@ -36,7 +36,7 @@ FlushSignals:OUT std_Logic_vector(3 DOWNTO 0);
 			--Outdata1:OUT std_logic_vector(31 DOWNTO 0);
 
 		--SignExtend for Immediate
-		Immediate: IN  std_logic_vector(3 DOWNTO 0);
+		Immediate: IN  std_logic_vector(15 DOWNTO 0);
 		Immediateextended : OUT std_logic_vector(31 DOWNTO 0) 
 );
 END DecodeStage ;
@@ -47,7 +47,7 @@ Component ControllerP IS
         --Input Signals
     -- Rst: IN std_logic;0  -- Int: IN std_logic;1-- Overflow:In std_logic;2-- ProtectedSig:In std_logic;3
     -- InterruptforPCandFx:IN std_logic;4 -RTISigx:IN std_logic;5
-    InputSignals:IN std_logic_Vector(5 downto 0);--Memory Signals
+    InputSignals:IN std_logic_Vector(6 downto 0);--Memory Signals
     -- MemReadPF:OUT std_logic;0-- MemWritePF:OUT std_logic;1 -- SPControl:OUT std_Logic;2
     -- MemRead:OUT std_Logic; --For Data Memory3-- MemWrite:OUT std_Logic; --FOr Data Memory4-- Call_Signal:OUT std_Logic;5
     -- SPsrc:OUT std_Logic;6 -- FlagSignal:OUT std_Logic;7-- LDIMM:OUT std_Logic;8
@@ -92,7 +92,7 @@ END  Component;
 Component SignExtend IS
 	PORT(
 
-		Immediate: IN  std_logic_vector(3 DOWNTO 0);
+		Immediate: IN  std_logic_vector(15 DOWNTO 0);
 		Immediateextended : OUT std_logic_vector(31 DOWNTO 0)
 );
 END Component;

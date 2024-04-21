@@ -5,8 +5,8 @@ ENTITY ControllerP IS
 	PORT ( 	
         --Input Signals
     -- Rst: IN std_logic;0  -- Int: IN std_logic;1-- Overflow:In std_logic;2-- ProtectedSig:In std_logic;3
-    -- InterruptforPCandFx:IN std_logic;4 -RTISigx:IN std_logic;5
-    InputSignals:IN std_logic_Vector(5 downto 0);--Memory Signals
+    -- InterruptforPCandFx:IN std_logic;4 -RTISigx:IN std_logic;5 bitforimmediate :6
+    InputSignals:IN std_logic_Vector(6 downto 0);--Memory Signals
     -- MemReadPF:OUT std_logic;0-- MemWritePF:OUT std_logic;1 -- SPControl:OUT std_Logic;2
     -- MemRead:OUT std_Logic; --For Data Memory3-- MemWrite:OUT std_Logic; --FOr Data Memory4-- Call_Signal:OUT std_Logic;5
     -- SPsrc:OUT std_Logic;6 -- FlagSignal:OUT std_Logic;7-- LDIMM:OUT std_Logic;8
@@ -178,7 +178,9 @@ elsif(Opcode="0011") then
 MemorySignals<="00000000000000";
 ExecuteSignals<="000001";
 WBSignals<="10";
-FlushSignals<="0000";
+if(INputSignals(6)='1') then
+FlushSignals<="0001";
+end if; 
 elsif(Opcode="0100") then
   --     MemReadPF<='0';--     MemWritePF<='0';--     SPControl<='0';--     MemRead<='0'; --For Data Memory
 --     MemWrite<='0'; --FOr Data Memory--     Call_Signal<='0';--     SPsrc<='0';--     FlagSignal<='0';
@@ -192,7 +194,9 @@ elsif(Opcode="0100") then
 MemorySignals<="00000000000000";
 ExecuteSignals<="000001";
 WBSignals<="10";
+
 FlushSignals<="0000";
+
 elsif(Opcode="0101") then
            --Memory Signals
 --     MemReadPF<='1';  --MemWritePF<='0';--     SPControl<='0';--     MemRead<='0'; --For Data Memory
@@ -206,7 +210,9 @@ elsif(Opcode="0101") then
 MemorySignals<="00000000010001";
 ExecuteSignals<="001000";
 WBSignals<="00";
-FlushSignals<="0000";
+if(INputSignals(6)='1') then
+FlushSignals<="0001";
+end if;
 elsif(Opcode="0110") then
         --Memory Signals
 --     MemReadPF<='1';--     MemWritePF<='0';--     SPControl<='1';--     MemRead<='0'; --For Data Memory
@@ -221,6 +227,7 @@ MemorySignals<="00100001010101";
 ExecuteSignals<="000000";
 WBSignals<="00";
 FlushSignals<="0000";
+
 elsif(Opcode="0111") then
       --Memory Signals
 --     MemReadPF<='0';--     MemWritePF<='0';--     SPControl<='0';--     MemRead<='1'; --For Data Memory
@@ -235,7 +242,9 @@ elsif(Opcode="0111") then
 MemorySignals<="00000000001000";
 ExecuteSignals<="000000";
 WBSignals<="11";
-FlushSignals<="0000";
+if(INputSignals(6)='1') then
+FlushSignals<="0001";
+end if; 
 elsif(Opcode="1000") then
            --Memory Signals
 --     MemReadPF<='0';--     MemWritePF<='0';--     SPControl<='0';--     MemRead<='1'; --For Data Memory
@@ -249,7 +258,9 @@ elsif(Opcode="1000") then
 MemorySignals<="00000100001000";
 ExecuteSignals<="001000";
 WBSignals<="11";
-FlushSignals<="0000";
+if(INputSignals(6)='1') then
+FlushSignals<="0001";
+end if ;
 elsif(Opcode="1001") then
        --Memory Signals
 --     MemReadPF<='0';--     MemWritePF<='0';--     SPControl<='1';--     MemRead<='1'; --For Data Memory

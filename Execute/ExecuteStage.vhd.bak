@@ -4,7 +4,8 @@ entity ExecuteStage is
 generic (n: integer := 32);
 port(
  Clk,Rst : IN std_logic;
- A,B,Immediate,OutputALU,OUTPUTMem: in std_logic_vector(n-1 downto 0);
+ A,B,OutputALU,OUTPUTMem: in std_logic_vector(n-1 downto 0);
+ Immediate:in std_logic_vector(31 downto 0);
 AluSrc,AlusrcStore,Restoreflag:IN std_logic;
 FU1,FU2:IN std_logic_vector(1 downto 0);
   F,ReadData1,ReadData2: out std_logic_vector(n-1 downto 0); -- we dont need to write semicolon as the end has } :)
@@ -20,7 +21,8 @@ CCRx:IN std_logic_vector(3 downto 0);
     --Memory Signals
   --  BitfreeorProtectSignal:OUT std_logic;-- CondorUnCond:OUT std_logic;
     MemSignals:OUT std_logic_vector(1 downto 0);
-CCR:OUT std_logic_vector(3 downto 0)
+CCR:OUT std_logic_vector(3 downto 0);
+--Immediateout:OUT std_logic_vector(31 downto 0)
 );
 end entity;
 ARCHITECTURE ExecuteStageP OF ExecuteStage  IS
@@ -71,15 +73,25 @@ port(
 	sel : in std_logic_vector(1 downto 0)
 );
 end Component;
+Component SignExtend IS
+	PORT(
+
+		Immediate: IN  std_logic_vector(15 DOWNTO 0);
+		Immediateextended : OUT std_logic_vector(31 DOWNTO 0)
+);
+END Component;
 Signal OutputSig1,OutputSig2,OutputforALU1,OutputforALU2:Std_logic_vector(31 downto 0);
 Signal SelectALU:Std_logic_vector(3 downto 0);
+
 Begin
+--fz: SignExtend PORT MAP(Immediate,Immediateextended);
 M0:mux21 generic map(n) PORT MAP ( A,Immediate,OutputSig1,AlusrcStore);
 M1:mux21 generic map(n) PORT MAP (B,Immediate, OutputSig2,AluSrc);
 M2:mux41 generic map(n) PORT MAP (OutputSig1,OutputALU, OUTPUTMem,OUTPUTMem,OutputforALU1,"00");--Forwarding unit//
 M3:mux41 generic map(n) PORT MAP (OutputSig2,OutputALU, OUTPUTMem,OUTPUTMem ,OutputforALU2,"00");--Forwarding unit//
 a0: ALUController  PORT MAP (Rst,Opcode,SelectALU,WBSignals,MemSignals);
-a1: ALU  generic map(n) PORT MAP(Clk,Rst, OutputforALU1,OutputforALU2,SelectALU,F,'0',CCR,Restoreflag,CCRx);
+a1: ALUxx  generic map(n) PORT MAP(Clk,Rst, OutputforALU1,OutputforALU2,SelectALU,F,'0',CCR,Restoreflag,CCRx);
 ReadData1<=OutputforALU1;
 ReadData2<=OutputforALU2;
+--Immediateout<=Immediate;
 end ExecuteStageP;

@@ -40,7 +40,8 @@ architecture EXMF of EXMF_piplined is
   signal DFF_in : std_logic_vector(229 downto 0);
   signal DFFout : std_logic_vector(229 downto 0);
 begin
-  DFF_in <=  out_alu&PC_plus_one & PC_old & immediate & writeaddress1  & writeaddress2 & readdata1 & readdata2 & flag_register & Excute_signal & write_back_signal & memory_signal;
+  DFF_in <=  out_alu&PC_plus_one & PC_old & immediate & writeaddress1  
+  & writeaddress2 & readdata1 & readdata2 & flag_register & Excute_signal & write_back_signal & memory_signal;
   piplineEXMF: my_nDFF generic map (230) port map (Clk => Clk, Rst => reset, d => DFF_in, q => DFFout, we => Enable);
   DFF_out <= DFFout;
 end architecture;

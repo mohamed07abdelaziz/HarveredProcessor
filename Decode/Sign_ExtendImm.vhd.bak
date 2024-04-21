@@ -11,10 +11,10 @@ ENTITY SignExtend IS
 END ENTITY SignExtend;
 
 ARCHITECTURE SignExtendP OF SignExtend IS
-Signal Sign:std_logic_vector(26 DOWNTO 0);
+Signal Sign:std_logic_vector(27 DOWNTO 0);
 	BEGIN
-Sign<="111111111111111111111111111" when Immediate(3)='1'
-else "000000000000000000000000000";
+Sign<="1111111111111111111111111111" when Immediate(3)='1'
+else "0000000000000000000000000000";
 		Immediateextended<=Sign & Immediate;
         END SignExtendP;
 
