@@ -14,7 +14,8 @@ Opcode : IN std_logic_vector(5 downto 0);
     WBSignals:OUT std_logic_vector(3 downto 0);
     --Memory Signals
   --  BitfreeorProtectSignal:OUT std_logic;-- CondorUnCond:OUT std_logic;
-    MemSignals:OUT std_logic_vector(1 downto 0)
+    MemSignals:OUT std_logic_vector(1 downto 0);
+     InputSignals:IN std_logic_Vector(6 downto 0)
 );
 END ALUController;
 
@@ -23,7 +24,9 @@ BEGIN
 	
 Process(Opcode,Rst)
 begin
-    if(Rst='1') then
+    if(Rst='1' or InputSignals(0)='1' or InputSignals(1)='1' 
+or InputSignals(2)='1' or InputSignals(3)='1' or InputSignals(4)='1' 
+or InputSignals(5)='1' or InputSignals(6)='1') then
         SelectALU<="0000";
         WBSignals<="0000";
         MemSignals<="00";
@@ -91,7 +94,7 @@ else
 -- InPortWe: 0 -- OutPortWe 0 -- RegWrite1 0
 -- SwapSignal 0
 WBSignals<="0000";
-if(Opcode(1 downto 0)="00") then--Protect
+if(Opcode(1 downto 0)="10") then--Protect
 --Memory Signals
 --  BitfreeorProtectSignal 0-- CondorUnCond 0 
 MemSignals<="01";
@@ -121,7 +124,7 @@ WBSignals<="0000";
 --Memory Signals
 -- BitfreeorProtectSignal 0-- CondorUnCond 0 
 MemSignals<="00";
-elsif(Opcode="000001" or Opcode="001001" or Opcode="001101")then--A-B with Flags Sub,CmP,Subi
+elsif(Opcode="001001" or Opcode="001101")then--A-B with Flags Sub,CmP,Subi
 -- Execute Signals
 SelectALU<="0011";
 --WB Signals
@@ -201,9 +204,19 @@ WBSignals<="0000";
 --Memory Signals
 -- BitfreeorProtectSignal 0-- CondorUnCond 0
 MemSignals<="00";
-else --dec A-1
+elsif(Opcode="000110")then --dec A-1
 -- Execute Signals
 SelectALU<="1011";
+--WB Signals
+-- InPortWe: 0 -- OutPortWe 0 -- RegWrite1 0
+-- SwapSignal 0
+WBSignals<="0000";
+--Memory Signals
+-- BitfreeorProtectSignal 0-- CondorUnCond 0
+MemSignals<="00";
+else
+-- Execute Signals
+SelectALU<="1110";
 --WB Signals
 -- InPortWe: 0 -- OutPortWe 0 -- RegWrite1 0
 -- SwapSignal 0

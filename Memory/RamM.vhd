@@ -18,7 +18,7 @@ ENTITY Ram IS
 END ENTITY Ram;
 ARCHITECTURE impOfRam OF Ram IS
 
-    TYPE ramType IS ARRAY(2048 DOWNTO 0) OF STD_LOGIC_VECTOR(15 DOWNTO 0);
+    TYPE ramType IS ARRAY(2047 DOWNTO 0) OF STD_LOGIC_VECTOR(15 DOWNTO 0);
     SIGNAL ram : ramType;
 
 BEGIN
@@ -30,21 +30,22 @@ BEGIN
             var2 := ram((1));
             dataOut <= var2 & var1;
         ELSIF (to_integer(unsigned (Address)) < 2048) THEN
-            IF (rising_edge(clk)) THEN
-                IF writeEnable = '1' AND spControl = '0' THEN
+            IF (falling_edge(clk)) THEN
+                IF writeEnable = '1' AND spControl = '0'   THEN
                     ram(to_integer(unsigned (Address))) <= dataIn(15 DOWNTO 0);
                     ram(to_integer(unsigned (Address)) + 1) <= dataIn(31 DOWNTO 16);
-                ELSIF writeEnable = '1' AND spControl = '1' THEN
+                ELSIF writeEnable = '1' AND spControl = '1'  THEN
                     ram(to_integer(unsigned (Address))) <= dataIn(15 DOWNTO 0);
                     ram(to_integer(unsigned (Address)) - 1) <= dataIn(31 DOWNTO 16);
-                ELSIF readEnable = '1' AND spControl = '1' THEN
-                    var1 := ram(to_integer(unsigned (Address)));
-                    var2 := ram(to_integer(unsigned (Address)) + 1);
-                    dataOut <= var2 & var1;
-                ELSIF readEnable = '1' AND spControl = '0' THEN
-                    var1 := ram(to_integer(unsigned (Address)) + 1);
+                ELSIF readEnable = '1' AND spControl = '1'  THEN
+                    var1 := ram(to_integer(unsigned (Address))+1);
                     var2 := ram(to_integer(unsigned (Address)) + 2);
                     dataOut <= var1 & var2;
+                ELSIF readEnable = '1' AND spControl = '0' THEN
+                    var1 := ram(to_integer(unsigned (Address)));
+                    var2 := ram(to_integer(unsigned (Address)) - 1);
+                    dataOut <= x"0000" & var1;
+             
                 END IF;
             END IF;
         END IF;

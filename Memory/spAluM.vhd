@@ -33,14 +33,14 @@ ARCHITECTURE impOfspAlu OF spAlu IS
     END COMPONENT;
     signal spOutSig : STD_LOGIC_VECTOR(31 DOWNTO 0);
     signal cOut : STD_LOGIC;
-    signal spSig : STD_LOGIC_VECTOR(31 DOWNTO 0):=x"00000800";
+    signal spSig : STD_LOGIC_VECTOR(31 DOWNTO 0):=x"000007FF";
 BEGIN
     
     spAdder1 : SPAdder PORT MAP (spSig, aluSp, spOutSig, cOut);
 
     dff1 : my_nDFFM PORT MAP (clk, reset, spSrc,spOutSig, spSig );
-
-
+   
+     SPOut<=spSig;
    
 
 END impOfspAlu;

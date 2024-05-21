@@ -6,7 +6,7 @@ ENTITY DecodeStage IS
 	PORT(
 		--Controller
  InputSignals : IN std_logic_vector(6 DOWNTO 0);
- OpCode : IN std_logic_vector(3 DOWNTO 0);
+ OpCode : IN std_logic_vector(5 DOWNTO 0);
  MemSignals : OUT std_logic_vector(13 DOWNTO 0);
  ExecSignals : OUT std_logic_vector(5 DOWNTO 0);
  WBSignals : OUT std_logic_vector(1 DOWNTO 0);
@@ -32,12 +32,16 @@ FlushSignals:OUT std_Logic_vector(3 DOWNTO 0);
 			--Mux21 for WriteReg1
 			InputPortWE: IN  std_logic;
 			--Writedata1  : IN  std_logic_vector(31 DOWNTO 0);
-			InputPortdata:IN std_logic_vector(31 DOWNTO 0)
+			InputPortdata:IN std_logic_vector(31 DOWNTO 0);
 			--Outdata1:OUT std_logic_vector(31 DOWNTO 0);
 
 		--SignExtend for Immediate
 		Immediate: IN  std_logic_vector(15 DOWNTO 0);
-		Immediateextended : OUT std_logic_vector(31 DOWNTO 0) 
+		Immediateextended : OUT std_logic_vector(31 DOWNTO 0); 
+                 SelecALU:OUT std_logic_vector(3 DOWNTO 0) ;
+                  WBSignals2:OUT std_logic_vector(3 downto 0);
+
+                    MemSignals2:OUT std_logic_vector(1 downto 0)
 );
 END DecodeStage ;
 
@@ -95,6 +99,23 @@ Component SignExtend IS
 		Immediate: IN  std_logic_vector(15 DOWNTO 0);
 		Immediateextended : OUT std_logic_vector(31 DOWNTO 0)
 );
+END  Component;
+Component ALUController IS
+	PORT( 	Rst: IN std_logic;
+    -- OPCode Second 4 bits for group first 2bits for instruction
+Opcode : IN std_logic_vector(5 downto 0);
+---- Controls Signals for special instructions
+   -- Execute Signals
+	SelectALU : OUT std_logic_vector(3 downto 0);
+    --WB Signals
+    -- InPortWe: Out std_logic; -- OutPortWe: Out std_logic; -- RegWrite1: Out std_logic;
+    -- SwapSignal:OUT std_logic;
+    WBSignals:OUT std_logic_vector(3 downto 0);
+    --Memory Signals
+  --  BitfreeorProtectSignal:OUT std_logic;-- CondorUnCond:OUT std_logic;
+    MemSignals:OUT std_logic_vector(1 downto 0);
+     InputSignals:IN std_logic_Vector(6 downto 0)
+);
 END Component;
 --Mux21 for WriteReg1
 Signal Outdata1 :std_logic_vector(31 DOWNTO 0);
@@ -105,7 +126,8 @@ Signal  Outaddress1,Outaddress2: std_logic_vector(2 DOWNTO 0);
 
 BEGIN
 
-	fx: ControllerP  PORT MAP(InputSignals,MemSignals,ExecSignals,WBSignals,FlushSignals,OpCode);
+	fx: ControllerP  PORT MAP(InputSignals,MemSignals,ExecSignals,WBSignals,FlushSignals,OpCode(5 downto 2));
+        fxALU:ALUController PORT MAP(Rst,OpCode, SelecALU,WBSignals2,MemSignals2);
         fy: Reg_Filexx PORT MAP(Clk,Rst,RegWrite0,RegWrite1,Registeraddress1,Registeraddress2,Outaddress1,Outaddress2,Outdata1
 				,Writedata2,Readdata1,Readdata2);
         fz: SignExtend PORT MAP(Immediate,Immediateextended);

@@ -52,6 +52,8 @@ reg_write <= wbBlock (2) & wbBlock (1);
 I_pc_out <=I_pc_in;
 
 mem_to_reg_Mux: mux2 generic map(64) port map(aluDataIn,memoryDataIn,signalout_Mux,wbBlock(4));
-output_to_reg1 <= signalout_Mux(63 downto 32);
-output_to_reg2 <= signalout_Mux (31 downto 0);
+output_to_reg1 <= signalout_Mux(63 downto 32) when wbBlock(4)='0' 
+else  signalout_Mux(31 downto 0);
+output_to_reg2 <= signalout_Mux (31 downto 0)when wbBlock(4)='0' 
+else signalout_Mux(63 downto 32);
 end archOFWriteBackMux ; 

@@ -1,0 +1,23 @@
+.org 
+2
+swap r1 ,R3
+out r4 
+.org 1000
+in R6
+push r0
+pop r1
+.org 100
+neg R7
+xor r5 ,r7 ,r2
+subi r0, r5 ,0007
+ldd r3 , AAAA(R7)
+std r3 ,AAAA(R7)
+protect r1 
+free r2
+jz R6
+jmp r2
+call r1
+Ret
+rti 
+protect r0
+Nop

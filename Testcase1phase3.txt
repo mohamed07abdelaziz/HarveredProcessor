@@ -1,0 +1,26 @@
+mem load -filltype value -filldata 0000 -fillradix hexadecimal -skip 0 /projectarch/F1/instruction_cache/ram
+mem load -i H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Assembler/assembler/output.mem /projectarch/F1/instruction_cache/ram
+force -freeze sim:/projectarch/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/projectarch/reset 1 0
+force -freeze sim:/projectarch/interuppt_signal 0 0
+run
+force -freeze sim:/projectarch/reset 0 0
+run
+run
+run
+run
+run
+run
+force -freeze sim:/projectarch/InputEx 16'h00000005 0
+run
+force -freeze sim:/projectarch/InputEx 16'h00000010 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

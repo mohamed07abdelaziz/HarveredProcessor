@@ -7,7 +7,7 @@ entity EXMF_piplined is
   port (
     clk, Reset, Enable           : in  std_logic;
     PC_plus_one                  : in  std_logic_vector(31 downto 0);
-    DFF_out                      : out std_logic_vector(229 downto 0);
+    DFF_out                      : out std_logic_vector(231 downto 0);
     PC_old                       : in  std_logic_vector(31 downto 0);
     immediate                    : in  std_logic_vector(31 downto 0);
     writeaddress1, writeaddress2 : in  std_logic_vector(2 downto 0);
@@ -16,7 +16,10 @@ entity EXMF_piplined is
     memory_signal                : in  std_logic_vector(15 downto 0);
     Excute_signal                : in  std_logic_vector(5 downto 0);
     out_alu                      : in std_logic_vector(31 downto 0);
-    write_back_signal            : in  std_logic_vector(5 downto 0)
+    write_back_signal            : in  std_logic_vector(5 downto 0);
+     Andgateprediction           :in std_logic;
+     flushbit:in std_logic;
+    loaduse:in std_logic
   );
 end entity;
 
@@ -37,11 +40,13 @@ architecture EXMF of EXMF_piplined is
     );
   end component;
 
-  signal DFF_in : std_logic_vector(229 downto 0);
-  signal DFFout : std_logic_vector(229 downto 0);
+  signal DFF_in : std_logic_vector(231 downto 0);
+  signal DFFout : std_logic_vector(231 downto 0);
 begin
-  DFF_in <=  out_alu&PC_plus_one & PC_old & immediate & writeaddress1  
-  & writeaddress2 & readdata1 & readdata2 & flag_register & Excute_signal & write_back_signal & memory_signal;
-  piplineEXMF: my_nDFF generic map (230) port map (Clk => Clk, Rst => reset, d => DFF_in, q => DFFout, we => Enable);
+  DFF_in <=   flushbit&Andgateprediction&out_alu&PC_plus_one & PC_old & immediate & writeaddress1  
+  & writeaddress2 & readdata1 & readdata2 & flag_register & Excute_signal & write_back_signal & memory_signal; --when loaduse='0'
+--else (others=>'0');
+--229198,197166,165134,133102,10199,9896,9564,6332,3128,2722,2116,150
+  piplineEXMF: my_nDFF generic map (232) port map (Clk => Clk, Rst => reset, d => DFF_in, q => DFFout, we => Enable);
   DFF_out <= DFFout;
 end architecture;

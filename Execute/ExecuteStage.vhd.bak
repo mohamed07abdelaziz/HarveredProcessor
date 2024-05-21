@@ -12,24 +12,29 @@ FU1,FU2:IN std_logic_vector(1 downto 0);
 -- Cout:out std_logic;
 --Cin:in std_logic;
 --Carry Flag,Negative flag,Zero Flag ,Overflowflag
-Opcode : IN std_logic_vector(5 downto 0);
+SelectionALU : IN std_logic_vector(3 downto 0);
 CCRx:IN std_logic_vector(3 downto 0);
     --WB Signals
     -- InPortWe: Out std_logic; -- OutPortWe: Out std_logic; -- RegWrite1: Out std_logic;
     -- SwapSignal:OUT std_logic;
-    WBSignals:OUT std_logic_vector(3 downto 0);
+    --WBSignals:OUT std_logic_vector(3 downto 0);
     --Memory Signals
   --  BitfreeorProtectSignal:OUT std_logic;-- CondorUnCond:OUT std_logic;
-    MemSignals:OUT std_logic_vector(1 downto 0);
+   -- MemSignals:OUT std_logic_vector(1 downto 0);
 CCR:OUT std_logic_vector(3 downto 0);
 --Immediateout:OUT std_logic_vector(31 downto 0)
+inportvalue:in std_logic_vector(31 downto 0);
+inportvalue2:in std_logic_vector(31 downto 0);
+informem:in std_logic;
+condoruncond:in std_logic;
+inenable,outenable,branchsig:IN std_logic
 );
 end entity;
 ARCHITECTURE ExecuteStageP OF ExecuteStage  IS
 Component ALUxx is
 generic (n: integer := 32);
 port(
- Clk,Rst : IN std_logic;
+  Clk,Rst : IN std_logic;
  A,B: in std_logic_vector(n-1 downto 0);
 Sel:in std_logic_vector(3 downto 0);
   F: out std_logic_vector(n-1 downto 0); -- we dont need to write semicolon as the end has } :)
@@ -38,7 +43,9 @@ Cin:in std_logic;
 --Carry Flag,Negative flag,Zero Flag ,Overflowflag
 CCR:OUT std_logic_vector(3 downto 0);
 Restoreflag:in std_logic ;
-CCRx:IN std_logic_vector(3 downto 0)
+CCRx:IN std_logic_vector(3 downto 0);
+condoruncond:IN std_logic;
+inenable,outenable,branchsig:IN std_logic
 );
 end Component;
 Component ALUController IS
@@ -80,17 +87,18 @@ Component SignExtend IS
 		Immediateextended : OUT std_logic_vector(31 DOWNTO 0)
 );
 END Component;
-Signal OutputSig1,OutputSig2,OutputforALU1,OutputforALU2:Std_logic_vector(31 downto 0);
-Signal SelectALU:Std_logic_vector(3 downto 0);
+Signal OutputSig1,OutputSig2,OutputforALU1,OutputforALU2,signalinport:Std_logic_vector(31 downto 0);
+--Signal SelectALU:Std_logic_vector(3 downto 0);
 
 Begin
 --fz: SignExtend PORT MAP(Immediate,Immediateextended);
 M0:mux21 generic map(n) PORT MAP ( A,Immediate,OutputSig1,AlusrcStore);
 M1:mux21 generic map(n) PORT MAP (B,Immediate, OutputSig2,AluSrc);
-M2:mux41 generic map(n) PORT MAP (OutputSig1,OutputALU, OUTPUTMem,OUTPUTMem,OutputforALU1,"00");--Forwarding unit//
-M3:mux41 generic map(n) PORT MAP (OutputSig2,OutputALU, OUTPUTMem,OUTPUTMem ,OutputforALU2,"00");--Forwarding unit//
-a0: ALUController  PORT MAP (Rst,Opcode,SelectALU,WBSignals,MemSignals);
-a1: ALUxx  generic map(n) PORT MAP(Clk,Rst, OutputforALU1,OutputforALU2,SelectALU,F,'0',CCR,Restoreflag,CCRx);
+M2:mux41 generic map(n) PORT MAP (OutputSig1,OutputALU, OUTPUTMem,signalinport,OutputforALU1,FU1);--Forwarding unit//
+M3:mux41 generic map(n) PORT MAP (OutputSig2,OutputALU, OUTPUTMem,signalinport,OutputforALU2,FU2);--Forwarding unit//
+M4:mux21 generic map(n) PORT MAP (inportvalue,inportvalue2,signalinport,informem);
+--a0: ALUController  PORT MAP (Rst,Opcode,SelectALU,WBSignals,MemSignals);
+a1: ALUxx  generic map(n) PORT MAP(Clk,Rst, OutputforALU1,OutputforALU2,SelectionALU,F,'0',CCR,Restoreflag,CCRx,condoruncond,inenable,outenable);
 ReadData1<=OutputforALU1;
 ReadData2<=OutputforALU2;
 --Immediateout<=Immediate;

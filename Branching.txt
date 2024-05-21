@@ -1,0 +1,10 @@
+// memory data file (do not edit the following line - required for mem load use)
+// instance=/fetch_stage/instruction_cache/ram
+// format=mti addressradix=h dataradix=s version=1.0 wordsperline=1
+0:  0002
+1:  0000
+2:  1001
+3:  7DB0
+100:  2247
+101:  0489
+

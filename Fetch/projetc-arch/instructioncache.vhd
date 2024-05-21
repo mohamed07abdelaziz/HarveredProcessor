@@ -8,24 +8,28 @@ entity instructioncache is
     clk, Rst, EN    : in  std_logic;
     readaddress     : in  std_logic_vector(31 downto 0);
     datain          : in  std_logic_vector(bits - 1 downto 0);
-    instructionport : out std_logic_vector(bits - 1 downto 0)
+    instructionport : out std_logic_vector(bits - 1 downto 0);
+    resetvalue ,Interruptvalue     : out std_logic_vector(31 downto 0)
   );
 
 end entity;
 
 architecture rtl of instructioncache is
   type ram_type is array (0 to 1999) of std_logic_vector(bits - 1 downto 0);
-  signal ram : ram_type;
-
+  signal ram      : ram_type;
+signal inst:std_logic_vector(31 downto 0);
 begin
   process (clk, Rst) is
   begin
-   if Rst='1' then 
-  elsif rising_edge(clk) then
+    if Rst = '1' then
+    elsif rising_edge(clk) then
       if EN = '1' then
         ram(to_integer(unsigned(readaddress))) <= datain;
       end if;
     end if;
   end process;
-  instructionport <= ram(to_integer(unsigned(readaddress)));
+  inst<=ram(to_integer(unsigned(readaddress))+1)& ram(to_integer(unsigned(readaddress)));
+  instructionport <=   inst(15 downto 0);
+  resetvalue      <= ram(1) & ram(0);
+Interruptvalue<=ram(3) & ram(2);
 end architecture;

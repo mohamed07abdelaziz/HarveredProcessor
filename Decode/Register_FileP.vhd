@@ -27,7 +27,7 @@ BEGIN
 	BEGIN
 		IF Rst = '1' THEN
 			ram <= (OTHERS => (OTHERS => '0'));
-		ELSIF rising_edge(clk) THEN
+		ELSIF falling_edge(clk) THEN
 			IF RegWrite0 = '1' THEN
 				ram(to_integer(unsigned(Writeaddress1))) <= Writedata1;
 			ELSE

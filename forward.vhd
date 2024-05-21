@@ -1,0 +1,54 @@
+--includes
+library IEEE;
+  use ieee.std_logic_1164.all;
+  use ieee.numeric_std.all;
+
+entity Forward is
+  port (
+    Rsource1, Rsource2, RdstEX1, RdstEX2, RdstMem1, RdstMem2                                : in  STD_LOGIC_VECTOR(2 downto 0);
+
+    clk, Input_enable,Input_enable_Mem, reg_write0EX, reg_write1EX, reg_write0Mem, reg_write1Mem, Alusrc, Aluforstore,AlusrcE, AluforstoreE,AlusrcM, AluforstoreM: in  STD_LOGIC;
+    selection1, selection2                                                                           : out Std_logic_vector(1 downto 0);
+    signalinformem:out std_logic ;
+    R1swape,R2swape,R1swapm,R2swapm:out std_logic
+  );
+end entity;
+
+architecture Forward_unit of Forward is
+Signal Sel1,Sel2,Sel3,Sel4:std_logic_vector(1 downto 0);
+begin
+   selection1 <= "01" when reg_write0EX = '1' and reg_write1EX = '0' and Rsource1 = RdstEX1 and (Aluforstore = '0' ) and Input_enable = '0' and Input_enable_Mem ='0'else
+                --"00" when reg_write0EX <= '1' and reg_write1EX <= '0' and Rsource2 = RdstEX1 and Alusrc <= '0' and Input_enable <= '0'and Input_enable_Mem<='0' else
+                "10" when reg_write0Mem = '1' and reg_write1Mem = '0' and Rsource1 = RdstMem1 and (Aluforstore = '0') and Input_enable = '0'and Input_enable_Mem ='0' else
+                --"00" when reg_write0Mem <= '1' and reg_write1Mem <= '0' and Rsource2 = RdstMem1 and Alusrc <= '0' and Input_enable <= '0'and Input_enable_Mem<='0' else
+                "01" when reg_write0EX = '1' and reg_write1EX = '1' and (Rsource1 = RdstEx1 or Rsource1 = RdstEx2) and(Aluforstore = '0') and Input_enable = '0' and Input_enable_Mem ='0'else
+                --"00" when reg_write0EX <= '1' and reg_write1EX <= '1' and (Rsource2 = RdstMem1 or Rsource2 = RdstMem2) and Alusrc <= '0'  and Input_enable <= '0'else
+                "10" when reg_write0Mem = '1' and reg_write1Mem = '1' and (Rsource1 = RdstMem1 or Rsource1 = RdstMem2) and(Aluforstore = '0')  and Input_enable = '0' and Input_enable_Mem='0' else
+               -- "00" when reg_write0Mem <= '1' and reg_write1Mem <= '1' and (Rsource2 = RdstMem1 or Rsource2 = RdstMem2) and Alusrc <= '0'  and Input_enable <= '0' and Input_enable_Mem<='0' else
+                "11" when Input_enable = '1' and Rsource1 = RdstEX1 and Aluforstore = '0'  else
+               "11" when Input_enable_Mem='1' and Rsource1 = RdstMem1 and Aluforstore = '0'   else
+                "00";
+R1swape<='1'  when ((Rsource1 = RdstEX1) or (Rsource2 = RdstEx1))and reg_write0EX = '1' and reg_write1EX = '1'
+else '0';
+R2swape<='1'  when ((Rsource1 = RdstEX2) or (Rsource2 = RdstEx2))and reg_write0EX = '1' and reg_write1EX = '1'
+else '0';
+R1swapm<='1' when ((Rsource1 = RdstMem1) or (Rsource2 = RdstMem1)) and reg_write0Mem = '1' and reg_write1Mem = '1'
+else '0';
+R2swapm<='1' when ((Rsource1 = RdstMem2) or (Rsource2 = RdstMem2))and reg_write0Mem = '1' and reg_write1Mem = '1'
+else '0';
+ selection2 <= "00" when reg_write0EX = '1' and reg_write1EX = '0' and Rsource2 = RdstEX1 and (Alusrc ='0')and AluforstoreM ='1' and Input_enable = '0'and Input_enable_Mem='0' and Rsource2 /= RdstMem1 else
+              "01" when reg_write0EX = '1' and reg_write1EX = '0' and Rsource2 = RdstEX1 and Alusrc = '0' and Input_enable = '0' else
+  
+                --"00" when reg_write0Mem <= '1' and reg_write1Mem <= '0' and Rsource1 = RdstMem1 and Aluforstore <= '0' and Input_enable <= '0' else
+                "10" when reg_write0Mem = '1' and reg_write1Mem = '0' and Rsource2 = RdstMem1 and(  Alusrc='0') and Input_enable = '0'and Input_enable_Mem='0' else
+               -- "00" when reg_write0EX <= '1' and reg_write1EX <= '1' and (Rsource1 = RdstEx1 or Rsource1 = RdstEx2) and Aluforstore <= '0' and Input_enable <= '0' else
+                "01" when reg_write0EX = '1' and reg_write1EX = '1' and (Rsource2 = RdstEx1 or Rsource2 = RdstEx2) and ( Alusrc='0') and Input_enable = '0' and Input_enable_Mem='0'else
+               -- "00" when reg_write0Mem <= '1' and reg_write1Mem <= '1' and (Rsource1 = RdstMem1 or Rsource1 = RdstMem2) and Aluforstore <= '0'  and Input_enable <= '0'else
+                "10" when reg_write0Mem = '1' and reg_write1Mem = '1' and (Rsource2 = RdstMem1 or Rsource2 = RdstMem2) and (  Alusrc='0')and Input_enable = '0'and Input_enable_Mem='0' else
+                "11" when Input_enable = '1' and Rsource2 = RdstEX1 and   Alusrc='0' else
+                "11"   when  Input_enable_Mem='1' and Rsource2 = RdstMem1 and(Alusrc='0') else 
+                "00";
+            
+  signalinformem<=Input_enable_Mem when (Rsource2 = RdstMem1 or Rsource1 = RdstMem1) and Input_enable_Mem='1'
+ else '0';
+end architecture;

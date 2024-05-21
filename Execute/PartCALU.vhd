@@ -36,7 +36,7 @@ Signal CoutT,Cinx,We :std_logic;
 Signal CCRx:std_logic_vector( 3 downto 0);
 begin
    f0:adder_16bit generic map(n) port map(A,Bx,Cinx,FT,CoutT);
-   D0:my_nDFF generic map(4) port map(Clk,Rst,CCRx ,CCR,We);
+  -- D0:my_nDFF generic map(4) port map(Clk,Rst,CCRx ,CCRy,We);
    --Selection=1000  A+B flags   Flags ,Sel=1001 AorB  flags,Sel=1010 AxorB with  Flags
    --Selection=1011 A-1 with  flags
    --for A
@@ -46,19 +46,22 @@ else  B ;
 
 Cinx<='1' when Sel="1011"
 else '0';
-We<='1';
+--We<='1';
 FTx<=A or B when Sel="1001"
 else A xor B when Sel="1010"
 else FT;
 F<=FTx;
-CCRx(0)<=CoutT when Sel="1000"  or Sel="1011"
+CCRx(0)<=CoutT when Sel="1000"  
+else '0' when Sel="1001"  or Sel="1010" or Sel="1011"
 else '0';
 CCRx(1)<=FTx(31) ;
 CCRx(2)<='1' when FTx=x"00000000"
 else '0';
-CCRx(3)<='1'when (Sel="1000"and FTx(31)=not A(31) and A(31)=B(31))  or(Sel="1011"and FTx(31)=not A(31) and A(31)='1')
+CCRx(3)<='1'when (Sel="1000"and FTx(31)=not A(31) and A(31)=B(31)) or (Sel="1011"and FTx(31)=not A(31) and A(31)='1')
+else '1' when (Sel="1000"and FTx(31)=A(31) and A(31)=B(31) and CCRx(0)='1') or (Sel="1011"and FTx(31)= A(31) and A(31)='1' and CCRx(0)='1')
+else '0' when Sel="1001" or Sel="1010"
 else '0';
---CCR<=CCRx;
+CCR<=CCRx;
 END Part_CALUP;
 
  

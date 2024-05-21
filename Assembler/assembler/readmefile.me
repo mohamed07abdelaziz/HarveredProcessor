@@ -1,0 +1,33 @@
+# Assembly Code Processor
+
+This project is a C++ program that processes assembly code.
+
+## Features
+
+- Converts hexadecimal numbers to binary.
+- Processes opcodes and register values.
+- Handles specific opcodes like "011111".
+
+## Code Overview
+
+The main logic of the program is contained in a loop that reads words from an input stream. Depending on the opcode and the number of registers, different actions are performed.
+
+For example, if the opcode is "011111" and there are more than 0 registers, the program reads the next word from the input stream, extracts the register value from it, converts the register value to uppercase, and then prepends the binary representation of the register value to the list of registers.
+
+## Usage
+
+To use this program, you need to compile it and then run the resulting executable.
+
+The test cases must be put in a file called test and its extension is .txt and the output will be stored in a file called output and its extension is .mem .
+Note your instruction format must be  add r1 ,r2 at least there is a space between the comma and reg only one of them is enough only i dont accept Add r1,r2
+
+### Compiling the Code
+
+To compile the code, use the following command:
+
+```bash
+g++ assemb.c++ -o outputs
+
+To run the program, use the following command:
+
+.\outputs.exe

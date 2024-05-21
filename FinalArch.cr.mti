@@ -1,4 +1,12 @@
-H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_nadder.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_nadder.vhd
+H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/DecodeStage.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/DecodeStage.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity DecodeStage
+-- Compiling architecture DecodeStageP of DecodeStage
+
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_nadder.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_nadder.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -59,15 +67,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity Mux2x1
 -- Compiling architecture Dataflow of Mux2x1
 
-} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/Fetch_piplined.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/Fetch_piplined.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity Fetch_piplined
--- Compiling architecture fetch of Fetch_piplined
-
 } {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/instructioncache.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/instructioncache.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -77,6 +76,15 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity instructioncache
 -- Compiling architecture rtl of instructioncache
 
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/Fetch_piplined.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/Fetch_piplined.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Fetch_piplined
+-- Compiling architecture fetch of Fetch_piplined
+
 } {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/ALUController.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/ALUController.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -84,14 +92,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package std_logic_1164
 -- Compiling entity ALUController
 -- Compiling architecture ALUControllerP of ALUController
-
-} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/ExecuteStage.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/ExecuteStage.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity ExecuteStage
--- Compiling architecture ExecuteStageP of ExecuteStage
 
 } {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/Memory.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/Memory.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -102,6 +102,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity Memory
 -- Compiling architecture impOfMemory of Memory
 
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/ExecuteStage.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/ExecuteStage.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ExecuteStage
+-- Compiling architecture ExecuteStageP of ExecuteStage
+
 } {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/spAluM.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/spAluM.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -111,13 +119,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity spAlu
 -- Compiling architecture impOfspAlu of spAlu
 
-} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_nDFF.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_nDFF.vhd
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/ALUProject.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/ALUProject.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity my_nDFF
--- Compiling architecture b_my_nDFF of my_nDFF
+-- Compiling entity ALUxx
+-- Compiling architecture ALUP of ALUxx
 
 } {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/WriteBack/zabzob/WB.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/WriteBack/zabzob/WB.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -128,13 +136,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity WriteBack
 -- Compiling architecture archOFWriteBackMux of WriteBack
 
-} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/ALUProject.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/ALUProject.vhd
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_nDFF.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_nDFF.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity ALUxx
--- Compiling architecture ALUP of ALUxx
+-- Compiling entity my_nDFF
+-- Compiling architecture b_my_nDFF of my_nDFF
 
 } {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartAALU.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartAALU.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -147,23 +155,29 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity Part_AALU
 -- Compiling architecture Part_AALUP of Part_AALU
 
-} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/ProjectArch.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/ProjectArch.vhd
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/my_nDFF.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/my_nDFF.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity ProjectArch
--- Compiling architecture Project of ProjectArch
+-- Compiling entity my_nDFF
+-- Compiling architecture b_my_nDFF of my_nDFF
 
-} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/excutememory.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/excutememory.vhd
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/adder_16bit.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/adder_16bit.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity EXMF_piplined
--- Compiling architecture EXMF of EXMF_piplined
+-- Compiling entity adder_16bit
+-- Compiling architecture my_Xadder of adder_16bit
+
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_DFF.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_DFF.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_DFF
+-- Compiling architecture a_my_DFF of my_DFF
 
 } {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/PC.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/PC.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -174,29 +188,40 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity pc_unit
 -- Compiling architecture Behavioral of pc_unit
 
-} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_DFF.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/my_DFF.vhd
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/excutememory.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/excutememory.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity my_DFF
--- Compiling architecture a_my_DFF of my_DFF
+-- Loading package NUMERIC_STD
+-- Compiling entity EXMF_piplined
+-- Compiling architecture EXMF of EXMF_piplined
 
-} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/adder_16bit.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/adder_16bit.vhd
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/ProjectArch.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/ProjectArch.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity adder_16bit
--- Compiling architecture my_Xadder of adder_16bit
+-- Loading package NUMERIC_STD
+-- Compiling entity ProjectArch
+-- Compiling architecture Project of ProjectArch
 
-} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/my_nDFF.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/my_nDFF.vhd
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Sign_ExtendImm.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Sign_ExtendImm.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity my_nDFF
--- Compiling architecture b_my_nDFF of my_nDFF
+-- Loading package NUMERIC_STD
+-- Compiling entity SignExtend
+-- Compiling architecture SignExtendP of SignExtend
+
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/WriteBack/zabzob/mux2.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/WriteBack/zabzob/mux2.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2
+-- Compiling architecture arch1 of mux2
 
 } {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartCALU.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Execute/PartCALU.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -209,30 +234,21 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity Part_CALU
 -- Compiling architecture Part_CALUP of Part_CALU
 
-} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/WriteBack/zabzob/mux2.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/WriteBack/zabzob/mux2.vhd
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/my_DFF.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/my_DFF.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity mux2
--- Compiling architecture arch1 of mux2
+-- Compiling entity my_DFF
+-- Compiling architecture a_my_DFF of my_DFF
 
-} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Sign_ExtendImm.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Sign_ExtendImm.vhd
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/myand.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/myand.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity SignExtend
--- Compiling architecture SignExtendP of SignExtend
-
-} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Controller.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Controller.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity ControllerP
--- Compiling architecture P_Controller of ControllerP
+-- Compiling entity myand
+-- Compiling architecture mynorDesign of myand
 
 } {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Register_FileP.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Register_FileP.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -243,48 +259,21 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity Reg_Filexx
 -- Compiling architecture RegfileP of Reg_Filexx
 
-} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/FETCH_STAGE.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/FETCH_STAGE.vhd
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Controller.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/Controller.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity FETCH_STAGE
--- Compiling architecture fetch_stage of FETCH_STAGE
+-- Compiling entity ControllerP
+-- Compiling architecture P_Controller of ControllerP
 
-} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/myand.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/myand.vhd
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/MUX21.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/MUX21.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity myand
--- Compiling architecture mynorDesign of myand
-
-} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/my_DFF.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/my_DFF.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity my_DFF
--- Compiling architecture a_my_DFF of my_DFF
-
-} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/SPAdderM.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/SPAdderM.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity SPAdder
--- Compiling architecture impOfSPAdder of SPAdder
-
-} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/my_nDFFM.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/my_nDFFM.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity my_nDFFM
--- Compiling architecture impOfmy_nDFF of my_nDFFM
+-- Compiling entity mux21
+-- Compiling architecture mux21P of mux21
 
 } {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/mux4.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/mux4.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -296,13 +285,23 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling architecture with_select_mux of mux4
 -- Loading entity mux4
 
-} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/MUX21.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/MUX21.vhd
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/my_nDFFM.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/my_nDFFM.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity mux21
--- Compiling architecture mux21P of mux21
+-- Loading package NUMERIC_STD
+-- Compiling entity my_nDFFM
+-- Compiling architecture impOfmy_nDFF of my_nDFFM
+
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/SPAdderM.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Memory/SPAdderM.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity SPAdder
+-- Compiling architecture impOfSPAdder of SPAdder
 
 } {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/myor.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Fetch/projetc-arch/myor.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
@@ -312,6 +311,14 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity myor
 -- Compiling architecture myorDesign of myor
 
+} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/MUX41.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/MUX41.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux41
+-- Compiling architecture mux41P of mux41
+
 } {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/memoryfreeprotect.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/MemoryPF/memoryfreeprotect.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -320,13 +327,5 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package NUMERIC_STD
 -- Compiling entity memoryfreeprotect
 -- Compiling architecture rtl of memoryfreeprotect
-
-} {} {}} H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/MUX41.vhd {1 {vcom -work work -2002 -explicit -stats=none H:/ModelsimArch/Modelsim/Project_Computer_Architecture/ProjectArchFinal/PipelinedProject/Decode/MUX41.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity mux41
--- Compiling architecture mux41P of mux41
 
 } {} {}}

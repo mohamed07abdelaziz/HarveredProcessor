@@ -63,9 +63,9 @@ BEGIN
        FlushSignals<="0000";
        elsif(InputSignals(2)='1') then--Protect
             --Memory Signals
---     MemReadPF<='0';--     MemWritePF<='0';--     SPControl<='0';--     MemRead<='0'; --For Data Memory
---     MemWrite<='0'; --FOr Data Memory--     Call_Signal<='0';--     SPsrc<='0';--     FlagSignal<='0';
---     LDIMM<='0';--     ReturnEnable<='0';--     Branch<='0';--     SPSel<='0';
+--     MemReadPF<='0';--     MemWritePF<='0';--     SPControl<='1';--     MemRead<='0'; --For Data Memory
+--     MemWrite<='1'; --FOr Data Memory--     Call_Signal<='1';--     SPsrc<='1';--     FlagSignal<='0';
+--     LDIMM<='0';--     ReturnEnable<='0';--     Branch<='0';--     SPSel<='1';
 --     --Execute Signals
 --     ALU_Src<='0';--     RegDst<='0';--     InterruptforPCandF<='0';--     AluSrcForStore<='0';
 --     RestoreFlags<='0'; -RTISig<='0';5 
@@ -73,21 +73,21 @@ BEGIN
 --    MemtoReg<='0';--    RegWrite<="00";
 --    --Flushing Signals
 --    F_Flush<='1';--    D_Flush<='1';--    E_Flush<='1';--    MF_Flush<='1';
-MemorySignals<="00000000000000";
+MemorySignals<="10100001110100";
 ExecuteSignals<="000000";
 WBSignals<="00";
 FlushSignals<="1111";
         elsif(InputSignals(3)='1') then--Overflow
-          --Memory Signals--     MemReadPF<='0';--     MemWritePF<='0';--     SPControl<='0';
---     MemRead<='0'; --For Data Memory--     MemWrite<='0'; --FOr Data Memory--     Call_Signal<='0';
---     SPsrc<='0';--     FlagSignal<='0';--     LDIMM<='0';--     ReturnEnable<='0';--     Branch<='0';
---     SPSel<='0';--    
+          --Memory Signals--     MemReadPF<='0';--     MemWritePF<='0';--     SPControl<='1';
+--     MemRead<='0'; --For Data Memory--     MemWrite<='1'; --FOr Data Memory--     Call_Signal<='0';
+--     SPsrc<='1';--     FlagSignal<='0';--     LDIMM<='0';--     ReturnEnable<='0';--     Branch<='0';
+--     SPSel<='1';--    
  --Execute Signals--     ALU_Src<='0';--     RegDst<='0';--     InterruptforPCandF<='0';
 --     AluSrcForStore<='0';--     RestoreFlags<='0';--    -RTISig<='0';5 
  --WriteBack Signals--    MemtoReg<='0';--    RegWrite<="00";--    
 --Flushing Signals--    F_Flush<='1';--    D_Flush<='1';--    E_Flush<='1';
 --    MF_Flush<='0';
-MemorySignals<="00000000000000";
+MemorySignals<="10100001110100";
 ExecuteSignals<="000000";
 WBSignals<="00";
 FlushSignals<="0111";
@@ -110,15 +110,15 @@ elsif(INputSignals(5)='1')  then --RTISigx
 --Memory Signals
 --     MemReadPF<='0';--     MemWritePF<='0';--     SPControl<='1';--     MemRead<='1'; --For Data Memory
 --     MemWrite<='0'; --FOr Data Memory--     Call_Signal<='0';--     SPsrc<='1';--     FlagSignal<='0';
---     LDIMM<='0';--     ReturnEnable<='0';--     Branch<='0';--     SPSel<='0';--     
+--     LDIMM<='0';--     ReturnEnable<='1';--     Branch<='0';--     SPSel<='0';--    --returnDisable<='1' 
 --Execute Signals
 --     ALU_Src<='0';--     RegDst<='0';--     InterruptforPCandF<='0';--     AluSrcForStore<='0';
---     RestoreFlags<='1';--    -RTISig<='0';5 
+--     RestoreFlags<='0';--    -RTISig<='0';5 
   --WriteBack Signals--    MemtoReg<='0';--    RegWrite<="00";
 --    --Flushing Signals--    F_Flush<='0';--    D_Flush<='0';--    E_Flush<='0';
 --    MF_Flush<='0';
-MemorySignals<="00000001001100";
-ExecuteSignals<="010000";
+MemorySignals<="01001001001100";
+ExecuteSignals<="000000";
 WBSignals<="00";
 FlushSignals<="0000";
 elsif( Opcode="0000") then
@@ -185,14 +185,14 @@ elsif(Opcode="0100") then
   --     MemReadPF<='0';--     MemWritePF<='0';--     SPControl<='0';--     MemRead<='0'; --For Data Memory
 --     MemWrite<='0'; --FOr Data Memory--     Call_Signal<='0';--     SPsrc<='0';--     FlagSignal<='0';
 --     LDIMM<='0';--     ReturnEnable<='0';--     Branch<='0';--     SPSel<='0';
---     --Execute Signals--     ALU_Src<='1';--     RegDst<='0';--     InterruptforPCandF<='0';
+--     --Execute Signals--     ALU_Src<='0';--     RegDst<='0';--     InterruptforPCandF<='0';
 --     AluSrcForStore<='0';--     RestoreFlags<='0';--    -RTISig<='0';5 
 --WriteBack Signals--    MemtoReg<='0';
 --    RegWrite<="01";--  
 --Flushing Signals--    F_Flush<='0';--    D_Flush<='0';
 --    E_Flush<='0';--    MF_Flush<='0';
 MemorySignals<="00000000000000";
-ExecuteSignals<="000001";
+ExecuteSignals<="000000";
 WBSignals<="10";
 
 FlushSignals<="0000";
@@ -233,31 +233,32 @@ elsif(Opcode="0111") then
 --     MemReadPF<='0';--     MemWritePF<='0';--     SPControl<='0';--     MemRead<='1'; --For Data Memory
 --     MemWrite<='0'; --FOr Data Memory--     Call_Signal<='0';--     SPsrc<='0';--     FlagSignal<='0';
 --     LDIMM<='0';--     ReturnEnable<='0';--     Branch<='0';--     SPSel<='0';
---     --Execute Signals--     ALU_Src<='0';--     RegDst<='0';--     InterruptforPCandF<='0';
+--     --Execute Signals--     ALU_Src<='1';--     RegDst<='0';--     InterruptforPCandF<='0';
 --     AluSrcForStore<='0';--     RestoreFlags<='0';--    -RTISig<='0';5 
 --WriteBack Signals--    MemtoReg<='1';
 --    RegWrite<="01";--  
 --Flushing Signals--    F_Flush<='0';--    D_Flush<='0';
 --    E_Flush<='0';--    MF_Flush<='0';
 MemorySignals<="00000000001000";
-ExecuteSignals<="000000";
+ExecuteSignals<="000001";
 WBSignals<="11";
 if(INputSignals(6)='1') then
 FlushSignals<="0001";
 end if; 
 elsif(Opcode="1000") then
            --Memory Signals
---     MemReadPF<='0';--     MemWritePF<='0';--     SPControl<='0';--     MemRead<='1'; --For Data Memory
+--     MemReadPF<='0';--     MemWritePF<='0';--     SPControl<='0';--     MemRead<='0'; --For Data Memory
 --     MemWrite<='0'; --FOr Data Memory--     Call_Signal<='0';--     SPsrc<='0';--     FlagSignal<='0';
 --     LDIMM<='1';--     ReturnEnable<='0';--     Branch<='0';--     SPSel<='0';
---     --Execute Signals--     ALU_Src<='0';--     RegDst<='0';--     InterruptforPCandF<='0';
+--     --Execute Signals--    
+-- ALU_Src<='0';--     RegDst<='0';--     InterruptforPCandF<='0';
 --     AluSrcForStore<='1';--     RestoreFlags<='0';--    -RTISig<='0';5 
---WriteBack Signals--    MemtoReg<='1';
+--WriteBack Signals--    MemtoReg<='0';
 --    RegWrite<="01";--    --Flushing Signals--    F_Flush<='0';--    D_Flush<='0';
 --    E_Flush<='0';--    MF_Flush<='0';
-MemorySignals<="00000100001000";
+MemorySignals<="00000100000000";
 ExecuteSignals<="001000";
-WBSignals<="11";
+WBSignals<="10";
 if(INputSignals(6)='1') then
 FlushSignals<="0001";
 end if ;
@@ -347,15 +348,15 @@ else
             --Memory Signals
 --     MemReadPF<='0';--     MemWritePF<='0';--     SPControl<='1';--     MemRead<='1'; --For Data Memory
 --     MemWrite<='0'; --FOr Data Memory--     Call_Signal<='1';--     SPsrc<='1';--     FlagSignal<='0';
---     LDIMM<='0';--     ReturnEnable<='1';--     Branch<='0';--     SPSel<='0'; --returnDisable<='1'
+--     LDIMM<='0';--     ReturnEnable<='0';--     Branch<='0';--     SPSel<='0'; --returnDisable<='0'
 --     --Execute Signals--     ALU_Src<='0';--     RegDst<='0';--     InterruptforPCandF<='0';
---     AluSrcForStore<='0';--     RestoreFlags<='0';--    -RTISig<='1';5 
---WriteBack Signals--    MemtoReg<='1';
+--     AluSrcForStore<='0';--     RestoreFlags<='1';--    -RTISig<='1';5 
+--WriteBack Signals--    MemtoReg<='0';
 --    RegWrite<="0;--    --Flushing Signals--    F_Flush<='1';--    D_Flush<='0';
 --    E_Flush<='0';--    MF_Flush<='0';
-MemorySignals<="01001001101100";
-ExecuteSignals<="100000";
-WBSignals<="01";
+MemorySignals<="00000001101100";
+ExecuteSignals<="110000";
+WBSignals<="00";
 FlushSignals<="0001";
 end if;
 end  process;   
